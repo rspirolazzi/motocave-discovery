@@ -1,0 +1,14 @@
+rabbitmq:
+  host: localhost
+  port: 5672
+  user: guest
+  password: guest
+  exchange: personal_price
+  routing_key_prefix: crawler
+  vhost: /
+
+logging:
+  filename: app.log
+  max_bytes: 10485760  # 10 MB
+  backup_count: 10
+

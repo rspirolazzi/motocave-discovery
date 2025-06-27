@@ -1,0 +1,19 @@
+# Ejecución de Spiders
+
+Cada spider puede ejecutarse desde la terminal, ubicado en el directorio raíz del proyecto (donde está el archivo `scrapy.cfg`).
+
+## Ejemplo de ejecución y guardado de resultados
+
+Para ejecutar un spider y guardar el resultado en un archivo JSON con el nombre del spider:
+
+```bash
+scrapy crawl NOMBRE_DEL_SPIDER -o NOMBRE_DEL_SPIDER.json
+```
+
+
+```bash
+scrapy crawl motodelta -o motodelta.json
+```
+```bash
+scrapy crawl motojose -o motojose.json
+```
