@@ -1,0 +1,311 @@
+{
+  "spider_name": "shopavantmotos",
+  "timestamp": "20250629_233101",
+  "analysis": {
+    "total_products": 25,
+    "field_stats": {
+      "menu_name": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Arte, Librería y Mercería",
+          "Arte, Librería y Mercería",
+          "Arte, Librería y Mercería"
+        ],
+        "unique_values_count": 3
+      },
+      "menu_url": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.shopavantmotos.com.ar/listado/arte-libreria-merceria/",
+          "https://www.shopavantmotos.com.ar/listado/arte-libreria-merceria/",
+          "https://www.shopavantmotos.com.ar/listado/arte-libreria-merceria/"
+        ],
+        "unique_values_count": 3
+      },
+      "product_url": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.shopavantmotos.com.ar/MLA-855018632-pegamento-para-esparregos-trabasil-6-gramos-avant-motos-_JM?pdp_filters=seller_id%3A212475070",
+          "https://www.shopavantmotos.com.ar/MLA-2036194614-pizarra-mecanico-mx-atv-dcor-pitboard-con-marcador-avant-_JM?searchVariation=187317054607&pdp_filters=seller_id%3A212475070",
+          "https://www.shopavantmotos.com.ar/MLA-832004973-cinta-tape-azul-48x10m-promx-avant-motos-_JM?searchVariation=48429579470&pdp_filters=seller_id%3A212475070"
+        ],
+        "unique_values_count": 25
+      },
+      "name": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Pegamento Para Esparregos Trabasil 6 Gramos Avant Motos",
+          "Pizarra Mecanico Mx Atv Dcor Pitboard Con Marcador - Avant",
+          "Cinta Tape Azul 48x10m Promx Avant Motos"
+        ],
+        "unique_values_count": 21
+      },
+      "price": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          6890.0,
+          92820.0,
+          15685.0
+        ],
+        "unique_values_count": 22
+      },
+      "brand": {
+        "present_count": 25,
+        "empty_count": 3,
+        "valid_count": 22,
+        "present_percentage": 100.0,
+        "empty_percentage": 12.0,
+        "valid_percentage": 88.0,
+        "completeness": 88.0,
+        "sample_values": [
+          "Trabasil",
+          "Dcor",
+          "PROMX"
+        ],
+        "unique_values_count": 7
+      },
+      "attrs": {
+        "present_count": 25,
+        "empty_count": 3,
+        "valid_count": 22,
+        "present_percentage": 100.0,
+        "empty_percentage": 12.0,
+        "valid_percentage": 88.0,
+        "completeness": 88.0,
+        "sample_values": [
+          {
+            "Marca": "Trabasil",
+            "Modelo": "Ra3",
+            "Volumen de la unidad": "6 cc"
+          },
+          {
+            "Marca": "Dcor",
+            "Modelo": "PITBOARDS",
+            "Ancho x Altura": "60 cm x 35 cm"
+          },
+          {
+            "Marca": "PROMX",
+            "Modelo": "Azul",
+            "Formato de venta": "Unidad",
+            "Largo x Ancho": "10 m x 4.8 cm"
+          }
+        ],
+        "unique_values_count": 17
+      },
+      "discount_text": {
+        "present_count": 25,
+        "empty_count": 25,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "images": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_910405-MLA41785810139_052020-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_831257-MLA81482577028_012025-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_880203-MLA81752428373_012025-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_865243-MLA81482324004_012025-F.jpg"
+          ],
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_979577-MLA83014743048_032025-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_935985-MLA83304709159_032025-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_737766-MLA83014733028_032025-F.jpg"
+          ],
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_998691-MLA40252534731_122019-F.jpg"
+          ]
+        ],
+        "unique_values_count": 22
+      },
+      "description": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "“AVANT GUIRAL MOTOS” ",
+          "PIZARRA PARA MECANICOS, CON MARCADOR INCLUIDO",
+          "CINTA TAPE VARIOS COLORES 48x10 METROS MARCA PROMX"
+        ],
+        "unique_values_count": 16
+      },
+      "category_name": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Pegamentos",
+          "Pizarras y Pizarrones",
+          "Cintas Reflectivas"
+        ],
+        "unique_values_count": 8
+      },
+      "category_url": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.shopavantmotos.com.ar/listado/arte-libreria-merceria/libreria/comercial-oficina/pegamentos-cortantes/pegamentos/",
+          "https://www.shopavantmotos.com.ar/listado/juegos-juguetes/arte-manualidades/atriles-pizarras-pizarrones/pizarras-pizarrones/",
+          "https://www.shopavantmotos.com.ar/listado/arte-libreria-merceria/merceria/cintas-reflectivas/"
+        ],
+        "unique_values_count": 8
+      },
+      "source": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          true,
+          true,
+          true
+        ],
+        "unique_values_count": 1
+      }
+    },
+    "critical_issues": [],
+    "recommended_missing": [],
+    "completeness_score": 90.46153846153847,
+    "products_100_complete": 0,
+    "products_critical_complete": 25
+  },
+  "sample_incomplete_products": [
+    {
+      "index": 0,
+      "name": "Pegamento Para Esparregos Trabasil 6 Gramos Avant Motos",
+      "url": "https://www.shopavantmotos.com.ar/MLA-855018632-pegamento-para-esparregos-trabasil-6-gramos-avant-motos-_JM?pdp_filters=seller_id%3A212475070",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Pizarra Mecanico Mx Atv Dcor Pitboard Con Marcador - Avant",
+      "url": "https://www.shopavantmotos.com.ar/MLA-2036194614-pizarra-mecanico-mx-atv-dcor-pitboard-con-marcador-avant-_JM?searchVariation=187317054607&pdp_filters=seller_id%3A212475070",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Cinta Tape Azul 48x10m Promx Avant Motos",
+      "url": "https://www.shopavantmotos.com.ar/MLA-832004973-cinta-tape-azul-48x10m-promx-avant-motos-_JM?searchVariation=48429579470&pdp_filters=seller_id%3A212475070",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Placa Pizarra Mecanico Radikal Marcador-pitboards Avant",
+      "url": "https://www.shopavantmotos.com.ar/MLA-1394258697-placa-pizarra-mecanico-radikal-marcador-pitboards-avant-_JM?searchVariation=180491404013&pdp_filters=seller_id%3A212475070",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "Placa Pizarra Mecanico Radikal Marcador-pitboards Avant",
+      "url": "https://www.shopavantmotos.com.ar/MLA-1552610114-placa-pizarra-mecanico-radikal-marcador-pitboards-avant-_JM?searchVariation=180490119003&pdp_filters=seller_id%3A212475070",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Cartuchera Jansport Pixel Pouch Artist Floral Avant Motos",
+      "url": "https://www.shopavantmotos.com.ar/MLA-1744111818-cartuchera-jansport-pixel-pouch-artist-floral-avant-motos-_JM?searchVariation=182511244771&pdp_filters=seller_id%3A212475070",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "Cartuchera Jansport Pixel Pouch Artist Floral Avant Motos",
+      "url": "https://www.shopavantmotos.com.ar/MLA-1744161364-cartuchera-jansport-pixel-pouch-artist-floral-avant-motos-_JM?searchVariation=182511234259&pdp_filters=seller_id%3A212475070",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "Lapicera Jansport Unisex Azul Pouch Galaxy Js00t49c31t Color Azul Flores Liso",
+      "url": "https://www.shopavantmotos.com.ar/lapicera-jansport-unisex-azul-pouch-galaxy-js00t49c31t-color-azul-flores-liso/p/MLA26471728?pdp_filters=seller_id%3A212475070",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Generador Honda Eg6500 Cx Avant Motos",
+      "url": "https://www.shopavantmotos.com.ar/MLA-659819217-generador-honda-eg6500-cx-avant-motos-_JM?pdp_filters=seller_id%3A212475070",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "Generador Inverter Honda Eu22i 2,2kva Electrogeno Eu20 Avant",
+      "url": "https://www.shopavantmotos.com.ar/MLA-1766073026-generador-inverter-honda-eu22i-22kva-electrogeno-eu20-avant-_JM?pdp_filters=seller_id%3A212475070",
+      "missing_fields": [
+        "discount_text"
+      ]
+    }
+  ]
+}

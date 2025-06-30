@@ -4,9 +4,87 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+import random
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
+
+
+class RotateUserAgentMiddleware:
+    """Middleware para rotar User-Agents y bypasear detección de bots"""
+    
+    def __init__(self, user_agent=''):
+        self.user_agent = user_agent
+        # Lista de User-Agents reales de diferentes navegadores
+        self.user_agent_list = [
+            # Chrome Windows
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
+            
+            # Firefox Windows
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:119.0) Gecko/20100101 Firefox/119.0',
+            
+            # Edge Windows
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0',
+            
+            # Chrome macOS
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+            
+            # Safari macOS
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15',
+            
+            # Mobile User-Agents
+            'Mozilla/5.0 (iPhone; CPU iPhone OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Mobile/15E148 Safari/604.1',
+            'Mozilla/5.0 (Linux; Android 14; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
+        ]
+    
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(crawler.settings.get('USER_AGENT'))
+    
+    def process_request(self, request, spider):
+        # Seleccionar un User-Agent aleatorio para cada request
+        ua = random.choice(self.user_agent_list)
+        request.headers['User-Agent'] = ua
+        
+        # Agregar headers adicionales para simular un navegador real
+        request.headers.update({
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+            'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'DNT': '1',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
+            'Cache-Control': 'max-age=0',
+        })
+        
+        return None
+
+
+class RefererMiddleware:
+    """Middleware para agregar referers realistas"""
+    
+    def process_request(self, request, spider):
+        # Si no hay referer, usar Google como referer
+        if not request.headers.get('Referer'):
+            if 'motosport.com.ar' in request.url:
+                # Para páginas internas, usar la página principal como referer
+                if request.url != spider.start_urls[0]:
+                    request.headers['Referer'] = spider.start_urls[0]
+                else:
+                    # Para la página principal, usar Google
+                    request.headers['Referer'] = 'https://www.google.com/'
+        
+        return None
 
 
 class MotorciclyeSpiderMiddleware:

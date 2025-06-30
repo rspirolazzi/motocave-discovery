@@ -1,0 +1,317 @@
+{
+  "spider_name": "motoscba",
+  "timestamp": "20250629_232225",
+  "analysis": {
+    "total_products": 24,
+    "field_stats": {
+      "menu_name": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Soportes, Parrillas y Herrajes",
+          "Soportes, Parrillas y Herrajes",
+          "Soportes, Parrillas y Herrajes"
+        ],
+        "unique_values_count": 2
+      },
+      "menu_url": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motoscba.com.ar/_Container_f80811ac-e9a3-45bb-b0bf-6732771dbf63",
+          "https://www.motoscba.com.ar/_Container_f80811ac-e9a3-45bb-b0bf-6732771dbf63",
+          "https://www.motoscba.com.ar/_Container_f80811ac-e9a3-45bb-b0bf-6732771dbf63"
+        ],
+        "unique_values_count": 2
+      },
+      "product_url": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motoscba.com.ar/MLA-1133996214-soporte-lateral-givi-royal-enfiel-himalayan-motoscba-_JM?searchVariation=174445292856",
+          "https://www.motoscba.com.ar/MLA-1120082468-defensa-moto-royal-enfield-himalayan-givi-motoscba-_JM",
+          "https://www.motoscba.com.ar/MLA-805515466-defensa-moto-honda-varadero-xl-1000v-2007-11-givi-_JM"
+        ],
+        "unique_values_count": 24
+      },
+      "name": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Soporte Lateral Givi Royal Enfiel Himalayan Motoscba",
+          "Defensa Moto Royal Enfield Himalayan Givi Motoscba",
+          "Defensa Moto Honda Varadero Xl 1000v 2007 11 Givi "
+        ],
+        "unique_values_count": 23
+      },
+      "price": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          464739.0,
+          334883.0,
+          42859.0
+        ],
+        "unique_values_count": 24
+      },
+      "brand": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Givi",
+          "Givi",
+          "Givi"
+        ],
+        "unique_values_count": 1
+      },
+      "attrs": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          {
+            "Marca": "Givi",
+            "Número de pieza": "PL9050"
+          },
+          {
+            "Marca": "Givi",
+            "Número de pieza": "TN9050"
+          },
+          {
+            "Marca": "Givi",
+            "Número de pieza": "TN454"
+          }
+        ],
+        "unique_values_count": 22
+      },
+      "discount_text": {
+        "present_count": 24,
+        "empty_count": 24,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "images": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_962444-MLA49775494337_042022-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_968641-MLA46521654553_062021-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_968678-MLA46521659455_062021-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_707597-MLA75660801113_042024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_625240-MLA75502737800_042024-F.jpg"
+          ],
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_948801-MLA70919803692_082023-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_690508-MLA48884162468_012022-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_663138-MLA48884291073_012022-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_846994-MLA48884177406_012022-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_708652-MLA53040276423_122022-F.jpg"
+          ],
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_672050-MLA70954794965_082023-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_917484-MLA29713879529_032019-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_903268-MLA29713868239_032019-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_662071-MLA46873011468_072021-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_933537-MLA41572390435_042020-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_810612-MLA70634651727_072023-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_630567-MLA71150528373_082023-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_760852-MLA71111876098_082023-F.jpg"
+          ]
+        ],
+        "unique_values_count": 23
+      },
+      "description": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "SOPORTE LATERAL PL9050 ",
+          "Este producto no tiene descripción.",
+          "TN454 DEFENSA HONDA VARADERO XL 1000V "
+        ],
+        "unique_values_count": 12
+      },
+      "category_name": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Portaequipajes",
+          "Defensas",
+          "Defensas"
+        ],
+        "unique_values_count": 4
+      },
+      "category_url": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motoscba.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/baules-anclajes/portaequipajes/",
+          "https://www.motoscba.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/defensas/",
+          "https://www.motoscba.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/defensas/"
+        ],
+        "unique_values_count": 4
+      },
+      "source": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          true,
+          true,
+          true
+        ],
+        "unique_values_count": 1
+      }
+    },
+    "critical_issues": [],
+    "recommended_missing": [],
+    "completeness_score": 92.3076923076923,
+    "products_100_complete": 0,
+    "products_critical_complete": 24
+  },
+  "sample_incomplete_products": [
+    {
+      "index": 0,
+      "name": "Soporte Lateral Givi Royal Enfiel Himalayan Motoscba",
+      "url": "https://www.motoscba.com.ar/MLA-1133996214-soporte-lateral-givi-royal-enfiel-himalayan-motoscba-_JM?searchVariation=174445292856",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Defensa Moto Royal Enfield Himalayan Givi Motoscba",
+      "url": "https://www.motoscba.com.ar/MLA-1120082468-defensa-moto-royal-enfield-himalayan-givi-motoscba-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Defensa Moto Honda Varadero Xl 1000v 2007 11 Givi ",
+      "url": "https://www.motoscba.com.ar/MLA-805515466-defensa-moto-honda-varadero-xl-1000v-2007-11-givi-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Defensa Givi Acero Inoxidable Moto Bmw R 1250gs  Motoscba",
+      "url": "https://www.motoscba.com.ar/MLA-1111512623-defensa-givi-acero-inoxidable-moto-bmw-r-1250gs-motoscba-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "Soporte Top Case Givi Moto Bmw G 310 Gs 2017 19 Motoscba",
+      "url": "https://www.motoscba.com.ar/MLA-643178753-soporte-top-case-givi-moto-bmw-g-310-gs-2017-19-motoscba-_JM?searchVariation=34619077029",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Defensa Motor Benelli Trk502 2017 18 Givi Motoscba S",
+      "url": "https://www.motoscba.com.ar/MLA-855809155-defensa-motor-benelli-trk502-2017-18-givi-motoscba-s-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "Baul Trasero Lateral Trekker Givi 46 Lt Motoscba",
+      "url": "https://www.motoscba.com.ar/MLA-615158700-baul-trasero-lateral-trekker-givi-46-lt-motoscba-_JM?searchVariation=33139320216",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "Baul Givi 27 Lt Motoscba",
+      "url": "https://www.motoscba.com.ar/MLA-903841995-baul-givi-27-lt-motoscba-_JM?searchVariation=72748395150",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Baul Moto Givi Top Case 56 Lt Maxia  Motoscba",
+      "url": "https://www.motoscba.com.ar/MLA-932957919-baul-moto-givi-top-case-56-lt-maxia-motoscba-_JM?searchVariation=93331424243",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "Baul  Givi Moto Top Case Trekker 33lt  Negro Motoscba",
+      "url": "https://www.motoscba.com.ar/MLA-917269668-baul-givi-moto-top-case-trekker-33lt-negro-motoscba-_JM?searchVariation=82472282767",
+      "missing_fields": [
+        "discount_text"
+      ]
+    }
+  ]
+}

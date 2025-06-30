@@ -1,0 +1,51 @@
+{
+  "spider_name": "motosport",
+  "timestamp": "2025-06-30T00:24:23.146688",
+  "items_analyzed": 0,
+  "validations": {
+    "structure": {
+      "score": 0,
+      "issues": [
+        "No se encontraron items"
+      ],
+      "details": {}
+    },
+    "data_quality": {
+      "score": 0,
+      "issues": [
+        "No hay productos para validar"
+      ],
+      "details": {}
+    },
+    "urls": {
+      "score": 0,
+      "issues": [],
+      "details": {}
+    },
+    "prices": {
+      "score": 0,
+      "issues": [],
+      "details": {}
+    },
+    "images": {
+      "score": 0,
+      "issues": [],
+      "details": {}
+    },
+    "categories": {
+      "score": 0,
+      "issues": [],
+      "details": {}
+    },
+    "source_info": {
+      "score": 0,
+      "issues": [
+        "No se encontró información de source"
+      ],
+      "details": {}
+    }
+  },
+  "score": 0.0,
+  "issues": [],
+  "recommendations": []
+}

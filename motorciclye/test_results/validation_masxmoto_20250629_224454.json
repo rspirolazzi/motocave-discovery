@@ -1,0 +1,97 @@
+{
+  "spider_name": "masxmoto",
+  "timestamp": "2025-06-29T22:44:54.225323",
+  "items_analyzed": 46,
+  "validations": {
+    "structure": {
+      "score": 100,
+      "issues": [],
+      "details": {
+        "sources_count": 1,
+        "products_count": 45
+      }
+    },
+    "data_quality": {
+      "score": 100,
+      "issues": [],
+      "details": {
+        "names_quality": {
+          "score": 100.0,
+          "issues": []
+        },
+        "prices_quality": {
+          "score": 100.0,
+          "issues": []
+        },
+        "brands_quality": {
+          "score": 100.0,
+          "issues": []
+        },
+        "duplicates": {
+          "count": 0,
+          "duplicates": []
+        }
+      }
+    },
+    "urls": {
+      "score": 100,
+      "issues": [],
+      "details": {
+        "valid_urls": 45,
+        "invalid_urls": 0
+      }
+    },
+    "prices": {
+      "score": 100,
+      "issues": [],
+      "details": {
+        "valid_prices": 45,
+        "invalid_prices": 0
+      }
+    },
+    "images": {
+      "score": 100,
+      "issues": [],
+      "details": {
+        "products_with_images": 45,
+        "products_without_images": 0
+      }
+    },
+    "categories": {
+      "score": 100.0,
+      "issues": [
+        "Categorías faltantes: Cubiertas, Repuestos, Aceites"
+      ],
+      "details": {
+        "found_categories": [
+          "Pantalones",
+          "Botas",
+          "Cascos",
+          "Intercomunicadores",
+          "Trajes de Lluvia",
+          "Camperas"
+        ],
+        "products_with_category": 45,
+        "expected_categories": [
+          "Cascos",
+          "Cubiertas",
+          "Aceites",
+          "Repuestos"
+        ]
+      }
+    },
+    "source_info": {
+      "score": 100,
+      "issues": [],
+      "details": {
+        "active_contacts": [
+          "phone",
+          "email"
+        ]
+      }
+    }
+  },
+  "score": 100.0,
+  "issues": [],
+  "recommendations": []
+}

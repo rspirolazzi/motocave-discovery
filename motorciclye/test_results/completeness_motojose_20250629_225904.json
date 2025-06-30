@@ -1,0 +1,327 @@
+{
+  "spider_name": "motojose",
+  "timestamp": "20250629_225904",
+  "analysis": {
+    "total_products": 60,
+    "field_stats": {
+      "menu_name": {
+        "present_count": 60,
+        "empty_count": 0,
+        "valid_count": 60,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Underwear",
+          "Underwear",
+          "Underwear"
+        ],
+        "unique_values_count": 3
+      },
+      "menu_url": {
+        "present_count": 60,
+        "empty_count": 0,
+        "valid_count": 60,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motojose.com.ar/articulos.asp?cat_nombre=Underwear&idcategoria=8",
+          "https://www.motojose.com.ar/articulos.asp?cat_nombre=Underwear&idcategoria=8",
+          "https://www.motojose.com.ar/articulos.asp?cat_nombre=Underwear&idcategoria=8"
+        ],
+        "unique_values_count": 3
+      },
+      "product_url": {
+        "present_count": 60,
+        "empty_count": 0,
+        "valid_count": 60,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motojose.com.ar/articulo.asp?idarticulo=44&art_nombre=REMERA%20TERMICA%20LS2%20JORDI",
+          "https://www.motojose.com.ar/articulo.asp?idarticulo=288&art_nombre=REMERA%20TERMICA%20LS2%20BAJO%20CERO",
+          "https://www.motojose.com.ar/articulo.asp?idarticulo=292&art_nombre=REMERA%20TERMICA%20ALTER"
+        ],
+        "unique_values_count": 60
+      },
+      "name": {
+        "present_count": 60,
+        "empty_count": 0,
+        "valid_count": 60,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "REMERA TERMICA LS2 JORDI",
+          "REMERA TERMICA LS2 BAJO CERO",
+          "REMERA TERMICA ALTER"
+        ],
+        "unique_values_count": 59
+      },
+      "price": {
+        "present_count": 60,
+        "empty_count": 6,
+        "valid_count": 54,
+        "present_percentage": 100.0,
+        "empty_percentage": 10.0,
+        "valid_percentage": 90.0,
+        "completeness": 90.0,
+        "sample_values": [
+          45300.0,
+          37000.0,
+          12000.0
+        ],
+        "unique_values_count": 34
+      },
+      "brand": {
+        "present_count": 60,
+        "empty_count": 60,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "attrs": {
+        "present_count": 60,
+        "empty_count": 60,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "discount_text": {
+        "present_count": 60,
+        "empty_count": 60,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "images": {
+        "present_count": 60,
+        "empty_count": 5,
+        "valid_count": 55,
+        "present_percentage": 100.0,
+        "empty_percentage": 8.333333333333332,
+        "valid_percentage": 91.66666666666666,
+        "completeness": 91.66666666666666,
+        "sample_values": [
+          [
+            "https://www.motojose.com.ar/database/articulos/fotos/44/REMERA TA_RMICA LS2 JORDI_1.jpg"
+          ],
+          [
+            "https://www.motojose.com.ar/database/articulos/fotos/288/RENERA TA_RMICA LS2 BAJO CERO_1.jpg"
+          ],
+          [
+            "https://www.motojose.com.ar/database/articulos/fotos/292/REMERA TERMICA ALTER_1.jpg"
+          ]
+        ],
+        "unique_values_count": 55
+      },
+      "description": {
+        "present_count": 60,
+        "empty_count": 10,
+        "valid_count": 50,
+        "present_percentage": 100.0,
+        "empty_percentage": 16.666666666666664,
+        "valid_percentage": 83.33333333333334,
+        "completeness": 83.33333333333334,
+        "sample_values": [
+          "MICROFIBRA DE ALTA HIDROFIBILIDAD. 92% POLIAMIDA + 8% ELASTANO.\r\nEstilo: Deportivo",
+          "REMERA TÉRMICA BAJO CERO\r\n\r\nLAS TELAS DE LA ROPA TÉRMICA CON COSTURAS SON TRATADAS CON EL PROCESO HIDROWICK, EL CUAL LOGRA UNA ALTA HIDROFIBILIDAD Y UN RAPIDO SECADO. DE ESTA FORMA LOS USUARIOS MANTIENEN UNA AGRADABLE TEMPERATURA CORPORAL DURANTE EL DESARROLLO DE CUALQUIER ACTIVIDAD AL AIRE LIBRE EN DIVERSAS CONDICIONES METEREOLÓGICAS\r\n.\r\nBENEFICIOS:\r\n\r\n-SISTEMA ANTI-HUMEDAD: EL SUDOR DEL CUERPO Y EL VAPOR PASAN A TRAVÉS DE LOS POROS DEL TRAMADO DE TELA, MANTENIENDO LA PIEL SIEMPRE SECA.\r\n\r\n-SECADO RÁPIDO: LAS PRENDAS POSEEN UNA SUPERFICIE QUE ACELERA EL PROCESO DE SECADO.\r\n\r\n-RETENCIÓN DE CALOR: EL TEJIDO ESPECIAL RETIENE EL CALOR CORPORAL.\r\n\r\n-ELASTICIDAD: EL TRAMADO PERMITE TENER TOTAL LIBERTAD DE MOVIMIENTO.\r\n\r\n-LIVIANO: LAS TELAS HIGH-TECH SON FINAS Y LIVIANAS.\r\n\r\n-CONFORT EN PLENA ACCIÓN: LA HUMEDAD DE LA PIEL ES ABSORBIDA Y EVAPORADA PERMITIENDO MAYOR REGULACIÓN TÉRMICA. EL CONFORT SE BASA EN LA ALTA -HIDROFIBILIDAD, EL RÁPIDO SECADO Y LA SUAVIDAD AL TACTO.",
+          "- Confeccionadas en fibra 100% Polyester.\r\n– Disipa la transpiración.\r\n– Evita el reingreso de la humedad corporal.\r\n– Facilita la respiración de la piel.\r\n– Seca rápidamente.\r\n– No requiere planchado.\r\n– Suave al tacto."
+        ],
+        "unique_values_count": 37
+      },
+      "category_name": {
+        "present_count": 60,
+        "empty_count": 0,
+        "valid_count": 60,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Underwear",
+          "Underwear",
+          "Underwear"
+        ],
+        "unique_values_count": 3
+      },
+      "category_url": {
+        "present_count": 60,
+        "empty_count": 60,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "source": {
+        "present_count": 60,
+        "empty_count": 0,
+        "valid_count": 60,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          true,
+          true,
+          true
+        ],
+        "unique_values_count": 1
+      }
+    },
+    "critical_issues": [
+      {
+        "field": "price",
+        "empty_count": 6,
+        "empty_percentage": 10.0
+      }
+    ],
+    "recommended_missing": [
+      {
+        "field": "brand",
+        "empty_percentage": 100.0
+      }
+    ],
+    "completeness_score": 66.53846153846153,
+    "products_100_complete": 0,
+    "products_critical_complete": 54
+  },
+  "sample_incomplete_products": [
+    {
+      "index": 0,
+      "name": "REMERA TERMICA LS2 JORDI",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=44&art_nombre=REMERA%20TERMICA%20LS2%20JORDI",
+      "missing_fields": [
+        "price",
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "REMERA TERMICA LS2 BAJO CERO",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=288&art_nombre=REMERA%20TERMICA%20LS2%20BAJO%20CERO",
+      "missing_fields": [
+        "price",
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "REMERA TERMICA ALTER",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=292&art_nombre=REMERA%20TERMICA%20ALTER",
+      "missing_fields": [
+        "price",
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "PANTALON TERMICO ALTER",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=294&art_nombre=PANTALON%20TERMICO%20ALTER",
+      "missing_fields": [
+        "price",
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "MX REMERA TECNICA ACERBIS MANGA LARGA NEGRO",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=926&art_nombre=MX%20REMERA%20TECNICA%20ACERBIS%20MANGA%20LARGA%20NEGRO",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "description",
+        "category_url"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "MEDIAS TERMICAS NINETOONE RIVAL",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=881&art_nombre=MEDIAS%20TERMICAS%20NINETOONE%20RIVAL",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "CUELLO TERMICO ACERBIS",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=615&art_nombre=CUELLO%20TERMICO%20ACERBIS",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "CUELLO FOURSTROKE NECK TECH",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1081&art_nombre=CUELLO%20FOURSTROKE%20NECK%20TECH",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "CONJUNTO THERMAL DRY MAX FOURSTROKE",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=916&art_nombre=CONJUNTO%20THERMAL%20DRY%20MAX%20FOURSTROKE",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "CAMISETA TERMICA SUMMIT NTO",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1163&art_nombre=CAMISETA%20TERMICA%20SUMMIT%20NTO",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    }
+  ]
+}

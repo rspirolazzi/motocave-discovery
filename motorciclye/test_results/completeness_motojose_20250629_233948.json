@@ -1,0 +1,323 @@
+{
+  "spider_name": "motojose",
+  "timestamp": "20250629_233948",
+  "analysis": {
+    "total_products": 82,
+    "field_stats": {
+      "menu_name": {
+        "present_count": 82,
+        "empty_count": 0,
+        "valid_count": 82,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Botas",
+          "Botas",
+          "Botas"
+        ],
+        "unique_values_count": 4
+      },
+      "menu_url": {
+        "present_count": 82,
+        "empty_count": 0,
+        "valid_count": 82,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motojose.com.ar/articulos.asp?cat_nombre=Botas&idcategoria=5",
+          "https://www.motojose.com.ar/articulos.asp?cat_nombre=Botas&idcategoria=5",
+          "https://www.motojose.com.ar/articulos.asp?cat_nombre=Botas&idcategoria=5"
+        ],
+        "unique_values_count": 4
+      },
+      "product_url": {
+        "present_count": 82,
+        "empty_count": 0,
+        "valid_count": 82,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motojose.com.ar/articulo.asp?idarticulo=1353&art_nombre=ZAPATILLAS%20BOZAKI%20TEKTRON%20NEGRA%20SUELA%20NEGRA%20**%206%20CUOTAS%20SIN%20INTERES%20**",
+          "https://www.motojose.com.ar/articulo.asp?idarticulo=1355&art_nombre=ZAPATILLAS%20BOZAKI%20TEKTRON%20NEGRA%20SUELA%20BLANCA%20**%206%20CUOTAS%20SIN%20INTERES**",
+          "https://www.motojose.com.ar/articulo.asp?idarticulo=1009&art_nombre=ZAPATILLAS%20BOTAS%20MOTO%20ALPINESTARS%20FASTER%203%20SHOES%20%20**6%20CUOTAS%20SIN%20INTERES**"
+        ],
+        "unique_values_count": 82
+      },
+      "name": {
+        "present_count": 82,
+        "empty_count": 0,
+        "valid_count": 82,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "ZAPATILLAS BOZAKI TEKTRON NEGRA SUELA NEGRA ** 6 CUOTAS SIN INTERES **",
+          "ZAPATILLAS BOZAKI TEKTRON NEGRA SUELA BLANCA ** 6 CUOTAS SIN INTERES**",
+          "ZAPATILLAS BOTAS MOTO ALPINESTARS FASTER 3 SHOES  **6 CUOTAS SIN INTERES**"
+        ],
+        "unique_values_count": 80
+      },
+      "price": {
+        "present_count": 82,
+        "empty_count": 0,
+        "valid_count": 82,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          46000.0,
+          46000.0,
+          513700.0
+        ],
+        "unique_values_count": 59
+      },
+      "brand": {
+        "present_count": 82,
+        "empty_count": 82,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "attrs": {
+        "present_count": 82,
+        "empty_count": 82,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "discount_text": {
+        "present_count": 82,
+        "empty_count": 82,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "images": {
+        "present_count": 82,
+        "empty_count": 1,
+        "valid_count": 81,
+        "present_percentage": 100.0,
+        "empty_percentage": 1.2195121951219512,
+        "valid_percentage": 98.78048780487805,
+        "completeness": 98.78048780487805,
+        "sample_values": [
+          [
+            "https://www.motojose.com.ar/database/articulos/fotos/1353/ZAPATILLAS BOZAKI TEKTRON NEGRA SUELA NEGRA_1.jpg",
+            "https://www.motojose.com.ar/database/articulos/fotos/1353/ZAPATILLAS BOZAKI TEKTRON NEGRA SUELA NEGRA_2.jpg",
+            "https://www.motojose.com.ar/database/articulos/fotos/1353/ZAPATILLAS BOZAKI TEKTRON NEGRA SUELA NEGRA_3.jpg",
+            "https://www.motojose.com.ar/database/articulos/fotos/1353/ZAPATILLAS BOZAKI TEKTRON NEGRA SUELA NEGRA_4.jpg"
+          ],
+          [
+            "https://www.motojose.com.ar/database/articulos/fotos/1355/ZAPATILLAS BOZAKI TEKTRON NEGRA SUELA BLANCA_1.jpg",
+            "https://www.motojose.com.ar/database/articulos/fotos/1355/ZAPATILLAS BOZAKI TEKTRON NEGRA SUELA BLANCA_2.jpg",
+            "https://www.motojose.com.ar/database/articulos/fotos/1355/ZAPATILLAS BOZAKI TEKTRON NEGRA SUELA BLANCA_3.jpg"
+          ],
+          [
+            "https://www.motojose.com.ar/database/articulos/fotos/1009/ZAPATILLAS BOTAS MOTO ALPINESTARS FASTER 3 SHOES _1.jpg"
+          ]
+        ],
+        "unique_values_count": 81
+      },
+      "description": {
+        "present_count": 82,
+        "empty_count": 7,
+        "valid_count": 75,
+        "present_percentage": 100.0,
+        "empty_percentage": 8.536585365853659,
+        "valid_percentage": 91.46341463414635,
+        "completeness": 91.46341463414635,
+        "sample_values": [
+          "Las \"Bozaki Tektron\" son botas y zapatillas para moto, diseñadas con un enfoque en la protección y el estilo urbano. Se caracterizan por su uso de cuero ecológico, refuerzos en zonas clave (como los cambios de marcha y tobillos), y suelas de goma. No son resistentes al agua y se recomiendan para uso diario y viajes en moto, manteniendo la comodidad y la tendencia motera. \r\nCaracterísticas principales de las Bozaki Tektron:\r\nUso: Moto y uso diario en la ciudad.\r\nMaterial: Cuero ecológico.\r\nProtecciones: Refuerzos en cambios, tobillos y punteras.\r\nSuelas: Goma (pegadas y cosidas).\r\nDiseño: Detalles reflectivos y cordones negros.\r\nNo son resistentes al agua . \r\nEn resumen, las Bozaki Tektron ofrecen una combinación de protección, estilo y comodidad para el uso en moto, especialmente en entornos urbanos y para el uso diario.. ",
+          "Las \"Bozaki Tektron\" son botas y zapatillas para moto, diseñadas con un enfoque en la protección y el estilo urbano. Se caracterizan por su uso de cuero ecológico, refuerzos en zonas clave (como los cambios de marcha y tobillos), y suelas de goma. No son resistentes al agua y se recomiendan para uso diario y viajes en moto, manteniendo la comodidad y la tendencia motera. \r\nCaracterísticas principales de las Bozaki Tektron:\r\nUso: Moto y uso diario en la ciudad.\r\nMaterial: Cuero ecológico.\r\nProtecciones: Refuerzos en cambios, tobillos y punteras.\r\nSuelas: Goma (pegadas y cosidas).\r\nDiseño: Detalles reflectivos y cordones negros.\r\nNo son resistentes al agua . \r\nEn resumen, las Bozaki Tektron ofrecen una combinación de protección, estilo y comodidad para el uso en moto, especialmente en entornos urbanos y para el uso diario.. ",
+          "Con nuevas innovaciones de rendimiento adaptadas de décadas de experiencia en R&D en el más alto nivel de los deportes de motor, el calzado Faster-3 utiliza una construcción de punto sin costuras para crear un zapato de montar que es extremadamente liviano, transpirable y con características de protección líderes en su clase, tanto en el interior como en el interior como en el exterior."
+        ],
+        "unique_values_count": 62
+      },
+      "category_name": {
+        "present_count": 82,
+        "empty_count": 0,
+        "valid_count": 82,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Botas",
+          "Botas",
+          "Botas"
+        ],
+        "unique_values_count": 4
+      },
+      "category_url": {
+        "present_count": 82,
+        "empty_count": 82,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "source": {
+        "present_count": 82,
+        "empty_count": 0,
+        "valid_count": 82,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          true,
+          true,
+          true
+        ],
+        "unique_values_count": 1
+      }
+    },
+    "critical_issues": [],
+    "recommended_missing": [
+      {
+        "field": "brand",
+        "empty_percentage": 100.0
+      }
+    ],
+    "completeness_score": 68.48030018761726,
+    "products_100_complete": 0,
+    "products_critical_complete": 82
+  },
+  "sample_incomplete_products": [
+    {
+      "index": 0,
+      "name": "ZAPATILLAS BOZAKI TEKTRON NEGRA SUELA NEGRA ** 6 CUOTAS SIN INTERES **",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1353&art_nombre=ZAPATILLAS%20BOZAKI%20TEKTRON%20NEGRA%20SUELA%20NEGRA%20**%206%20CUOTAS%20SIN%20INTERES%20**",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "ZAPATILLAS BOZAKI TEKTRON NEGRA SUELA BLANCA ** 6 CUOTAS SIN INTERES**",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1355&art_nombre=ZAPATILLAS%20BOZAKI%20TEKTRON%20NEGRA%20SUELA%20BLANCA%20**%206%20CUOTAS%20SIN%20INTERES**",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "ZAPATILLAS BOTAS MOTO ALPINESTARS FASTER 3 SHOES  **6 CUOTAS SIN INTERES**",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1009&art_nombre=ZAPATILLAS%20BOTAS%20MOTO%20ALPINESTARS%20FASTER%203%20SHOES%20%20**6%20CUOTAS%20SIN%20INTERES**",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "ZAPATILLAS ALTER FLUENCE",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=162&art_nombre=ZAPATILLAS%20ALTER%20FLUENCE",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "ZAPATILLAS ALPINESTARS CHROME SHOES BL CG RF **6 CUOTAS SIN INTERES**",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1374&art_nombre=ZAPATILLAS%20ALPINESTARS%20CHROME%20SHOES%20BL%20CG%20RF%20**6%20CUOTAS%20SIN%20INTERES**",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "ZAPATILLAS ALPINESTARS CHROME SHOES BK WH B RE **6 CUOTAS SIN INTERES**",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1375&art_nombre=ZAPATILLAS%20ALPINESTARS%20CHROME%20SHOES%20BK%20WH%20B%20RE%20**6%20CUOTAS%20SIN%20INTERES**",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "ZAPATILLAS ALPINESTARS AGELESS RIDING SHOES **6 CUOTAS SIN INTERES**",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1100&art_nombre=ZAPATILLAS%20ALPINESTARS%20AGELESS%20RIDING%20SHOES%20**6%20CUOTAS%20SIN%20INTERES**",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "SNEAKERS OSAKA NINETOONE **6 CUOTAS SIN INTERES**",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=807&art_nombre=SNEAKERS%20OSAKA%20NINETOONE%20**6%20CUOTAS%20SIN%20INTERES**",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "SNEAKER NTO COMMUTER HOMBRE NEGRO / ROJO",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1268&art_nombre=SNEAKER%20NTO%20COMMUTER%20HOMBRE%20NEGRO%20/%20ROJO",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "BOTAS STAV CUERO CANA MEDIA NOMAD MARRON **6 CUOTAS SIN INTERES**",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1231&art_nombre=BOTAS%20STAV%20CUERO%20CANA%20MEDIA%20NOMAD%20MARRON%20**6%20CUOTAS%20SIN%20INTERES**",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "images",
+        "description",
+        "category_url"
+      ]
+    }
+  ]
+}

@@ -22,8 +22,23 @@ class BaseSpider(scrapy.Spider):
     XPATH_PRODUCT_PRICE = None
     XPATH_PRODUCT_IMAGES = None
     XPATH_PRODUCT_DESCRIPTION = None
+    XPATH_PRODUCT_BRAND = None
+    XPATH_PRODUCT_ATTRS = None
+    XPATH_PRODUCT_DISCOUNT_TEXT = None
+    XPATH_PRODUCT_STOCK = None
+    XPATH_PRODUCT_PAYMENTS = None
     XPATH_BREADCRUMB_LAST = None
     HANDLE_PAGINATION = True  # Habilitar paginación por defecto
+
+    # URLs a ignorar
+    ignored_urls = []
+    
+    def should_ignore_url(self, url):
+        """Verifica si una URL debe ser ignorada"""
+        for ignored in self.ignored_urls:
+            if ignored in url:
+                return True
+        return False
 
 
     def __init__(self, *args, **kwargs):
@@ -40,7 +55,11 @@ class BaseSpider(scrapy.Spider):
         'images': 'parse_product_images',
         'description': 'parse_product_description',
         'category_name': 'parse_product_category_name',
+        'brand': 'parse_product_brand',
+        'attrs': 'parse_product_attrs',
+        'discount': 'parse_product_discount_text',
         'category_url': 'parse_product_category_url',
+        'stock': 'parse_product_stock',
     }
 
     @classmethod
@@ -103,17 +122,36 @@ class BaseSpider(scrapy.Spider):
         return None
 
     def parse_product_images(self, response):
-        return response.xpath(self.XPATH_PRODUCT_IMAGES).getall()
+        return response.xpath(self.XPATH_PRODUCT_IMAGES).getall() if self.XPATH_PRODUCT_IMAGES else None
+
+    def parse_product_brand(self, response):
+        return response.xpath(self.XPATH_PRODUCT_BRAND).get() if self.XPATH_PRODUCT_BRAND else None
+    
+    def parse_product_attrs(self, response):
+        return response.xpath(self.XPATH_PRODUCT_ATTRS).getall() if self.XPATH_PRODUCT_ATTRS else None
+
+    def parse_product_discount_text(self, response):
+        return  response.xpath(self.XPATH_PRODUCT_DISCOUNT_TEXT).get() if self.XPATH_PRODUCT_DISCOUNT_TEXT else None
+    
+    def parse_product_stock(self, response):
+        return  response.xpath(self.XPATH_PRODUCT_STOCK).get() if self.XPATH_PRODUCT_STOCK else None
+    
+    def parse_product_payments(self, response):
+        return response.xpath(self.XPATH_PRODUCT_PAYMENTS).get() if self.XPATH_PRODUCT_PAYMENTS else None
 
     def parse_product_description(self, response):
-        return response.xpath(self.XPATH_PRODUCT_DESCRIPTION).get()
+        return response.xpath(self.XPATH_PRODUCT_DESCRIPTION).get() if self.XPATH_PRODUCT_DESCRIPTION else None
 
     def parse_product_category_name(self, response):
-        breadcrumb = response.xpath(self.XPATH_BREADCRUMB_LAST)
+        breadcrumb = response.xpath(self.XPATH_BREADCRUMB_LAST) if self.XPATH_BREADCRUMB_LAST else  None
+        if not breadcrumb:
+            return None
         return breadcrumb.xpath('normalize-space(string())').get()
 
     def parse_product_category_url(self, response):
-        breadcrumb = response.xpath(self.XPATH_BREADCRUMB_LAST)
+        breadcrumb = response.xpath(self.XPATH_BREADCRUMB_LAST) if self.XPATH_BREADCRUMB_LAST else None
+        if not breadcrumb:
+            return None
         return breadcrumb.xpath('./@href').get()
 
     def on_feed_exporter_closed(self):

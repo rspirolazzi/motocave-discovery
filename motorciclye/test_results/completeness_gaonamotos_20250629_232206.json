@@ -1,0 +1,309 @@
+{
+  "spider_name": "gaonamotos",
+  "timestamp": "20250629_232206",
+  "analysis": {
+    "total_products": 24,
+    "field_stats": {
+      "menu_name": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Tapas de Cilindros",
+          "Tapas de Cilindros",
+          "Tapas de Cilindros"
+        ],
+        "unique_values_count": 2
+      },
+      "menu_url": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.gaonamotos.com/listado/accesorios-vehiculos/repuestos-motos-cuatriciclos/motor/tapas-cilindros/",
+          "https://www.gaonamotos.com/listado/accesorios-vehiculos/repuestos-motos-cuatriciclos/motor/tapas-cilindros/",
+          "https://www.gaonamotos.com/listado/accesorios-vehiculos/repuestos-motos-cuatriciclos/motor/tapas-cilindros/"
+        ],
+        "unique_values_count": 2
+      },
+      "product_url": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.gaonamotos.com/MLA-869580491-juego-valvulas-honda-cg-titan-150-3b-bbb-gaona-motos-_JM",
+          "https://www.gaonamotos.com/MLA-1437806647-tapa-cilindro-bajaj-rouser-rs-ns-200-fi-inyeccion-original-_JM",
+          "https://www.gaonamotos.com/MLA-2068956520-tapa-cilindro-para-gilera-smash-110-gaona-motos-_JM"
+        ],
+        "unique_values_count": 24
+      },
+      "name": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Juego Valvulas Honda Cg Titan 150 3b Bbb - Gaona Motos!",
+          "Tapa Cilindro Bajaj Rouser Rs Ns 200 Fi Inyeccion Original",
+          "Tapa Cilindro Para Gilera Smash 110 Gaona Motos"
+        ],
+        "unique_values_count": 24
+      },
+      "price": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          17378.0,
+          465381.0,
+          98454.0
+        ],
+        "unique_values_count": 23
+      },
+      "brand": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "3B BBB",
+          "Bajaj",
+          "Repcor"
+        ],
+        "unique_values_count": 9
+      },
+      "attrs": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          {
+            "Marca": "3B BBB",
+            "Número de pieza": "VK-3904"
+          },
+          {
+            "Marca": "Bajaj",
+            "Número de pieza": "36DT0081"
+          },
+          {
+            "Marca": "Repcor",
+            "Número de pieza": "J176CZV"
+          }
+        ],
+        "unique_values_count": 24
+      },
+      "discount_text": {
+        "present_count": 24,
+        "empty_count": 24,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "images": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_780784-MLA51361993050_082022-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_936881-MLA76786374114_062024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_825966-MLA76786500604_062024-F.jpg"
+          ],
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_875327-MLA77498763180_072024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_974037-MLA77716198375_072024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_853104-MLA77093968593_062024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_603504-MLA76885430946_062024-F.jpg"
+          ],
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_790468-MLA83938991014_042025-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_817341-MLA84234147599_042025-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_762445-MLA84234147601_042025-F.jpg"
+          ]
+        ],
+        "unique_values_count": 24
+      },
+      "description": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "GAONA MOTOS\r",
+          "GAONA MOTOS",
+          "GAONA MOTOS"
+        ],
+        "unique_values_count": 2
+      },
+      "category_name": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Válvulas",
+          "Tapas de Cilindros Completas",
+          "Tapas de Cilindros Completas"
+        ],
+        "unique_values_count": 3
+      },
+      "category_url": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.gaonamotos.com/listado/accesorios-vehiculos/repuestos-motos-cuatriciclos/motor/tapas-cilindros/valvulas/",
+          "https://www.gaonamotos.com/listado/accesorios-vehiculos/repuestos-motos-cuatriciclos/motor/tapas-cilindros/tapas-cilindros-completas/",
+          "https://www.gaonamotos.com/listado/accesorios-vehiculos/repuestos-motos-cuatriciclos/motor/tapas-cilindros/tapas-cilindros-completas/"
+        ],
+        "unique_values_count": 3
+      },
+      "source": {
+        "present_count": 24,
+        "empty_count": 0,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          true,
+          true,
+          true
+        ],
+        "unique_values_count": 1
+      }
+    },
+    "critical_issues": [],
+    "recommended_missing": [],
+    "completeness_score": 92.3076923076923,
+    "products_100_complete": 0,
+    "products_critical_complete": 24
+  },
+  "sample_incomplete_products": [
+    {
+      "index": 0,
+      "name": "Juego Valvulas Honda Cg Titan 150 3b Bbb - Gaona Motos!",
+      "url": "https://www.gaonamotos.com/MLA-869580491-juego-valvulas-honda-cg-titan-150-3b-bbb-gaona-motos-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Tapa Cilindro Bajaj Rouser Rs Ns 200 Fi Inyeccion Original",
+      "url": "https://www.gaonamotos.com/MLA-1437806647-tapa-cilindro-bajaj-rouser-rs-ns-200-fi-inyeccion-original-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Tapa Cilindro Para Gilera Smash 110 Gaona Motos",
+      "url": "https://www.gaonamotos.com/MLA-2068956520-tapa-cilindro-para-gilera-smash-110-gaona-motos-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Tapa Cilindro Y Tapa Valvulas Bajaj V15 Original Gaona Motos",
+      "url": "https://www.gaonamotos.com/MLA-1107962064-tapa-cilindro-y-tapa-valvulas-bajaj-v15-original-gaona-motos-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "Juego Valvula Para Suzuki Gn 125 Standard Gaona Motos",
+      "url": "https://www.gaonamotos.com/MLA-2068930414-juego-valvula-para-suzuki-gn-125-standard-gaona-motos-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Juego Valvula Zanella Rx 150 Wstandard Gaona Motos",
+      "url": "https://www.gaonamotos.com/MLA-1494927359-juego-valvula-zanella-rx-150-wstandard-gaona-motos-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "Cadena Distribucion Honda Cg Titan 150 404 X 94 Choho Gaona",
+      "url": "https://www.gaonamotos.com/MLA-837703402-cadena-distribucion-honda-cg-titan-150-404-x-94-choho-gaona-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "Flauta Tensor Distribucion Gilera Smash 110 Gaona Motos",
+      "url": "https://www.gaonamotos.com/MLA-1126008492-flauta-tensor-distribucion-gilera-smash-110-gaona-motos-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Cadena Transmision 428 - 136 Dorada Osaka Xr Xtz Skua Gaona!",
+      "url": "https://www.gaonamotos.com/MLA-915585805-cadena-transmision-428-136-dorada-osaka-xr-xtz-skua-gaona-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "Cadena Transmision Choho Dorada 428h- 110 En Gaona Motos!!!",
+      "url": "https://www.gaonamotos.com/MLA-618662768-cadena-transmision-choho-dorada-428h-110-en-gaona-motos-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    }
+  ]
+}

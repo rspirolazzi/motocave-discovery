@@ -1,0 +1,329 @@
+{
+  "spider_name": "motojose",
+  "timestamp": "20250629_233055",
+  "analysis": {
+    "total_products": 52,
+    "field_stats": {
+      "menu_name": {
+        "present_count": 52,
+        "empty_count": 0,
+        "valid_count": 52,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Guantes",
+          "Cascos",
+          "Cascos"
+        ],
+        "unique_values_count": 2
+      },
+      "menu_url": {
+        "present_count": 52,
+        "empty_count": 0,
+        "valid_count": 52,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motojose.com.ar/articulos.asp?cat_nombre=Guantes&idcategoria=10",
+          "https://www.motojose.com.ar/articulos.asp?cat_nombre=Cascos&idcategoria=6",
+          "https://www.motojose.com.ar/articulos.asp?cat_nombre=Cascos&idcategoria=6"
+        ],
+        "unique_values_count": 2
+      },
+      "product_url": {
+        "present_count": 52,
+        "empty_count": 0,
+        "valid_count": 52,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motojose.com.ar/articulo.asp?idarticulo=179&art_nombre=LS2%20MX%20RANGER%20FLASH",
+          "https://www.motojose.com.ar/articulo.asp?idarticulo=139&art_nombre=CASCO%20AGV%20K1%20WINTERTEST",
+          "https://www.motojose.com.ar/articulo.asp?idarticulo=845&art_nombre=CASCO%20X-LITE%20X-803%20ULTRA%20CARBON"
+        ],
+        "unique_values_count": 52
+      },
+      "name": {
+        "present_count": 52,
+        "empty_count": 0,
+        "valid_count": 52,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "LS2 MX RANGER FLASH",
+          "CASCO AGV K1 WINTERTEST",
+          "CASCO X-LITE X-803 ULTRA CARBON"
+        ],
+        "unique_values_count": 51
+      },
+      "price": {
+        "present_count": 52,
+        "empty_count": 1,
+        "valid_count": 51,
+        "present_percentage": 100.0,
+        "empty_percentage": 1.9230769230769231,
+        "valid_percentage": 98.07692307692307,
+        "completeness": 98.07692307692307,
+        "sample_values": [
+          46200.0,
+          443800.0,
+          1312600.0
+        ],
+        "unique_values_count": 31
+      },
+      "brand": {
+        "present_count": 52,
+        "empty_count": 52,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "attrs": {
+        "present_count": 52,
+        "empty_count": 52,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "discount_text": {
+        "present_count": 52,
+        "empty_count": 52,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "images": {
+        "present_count": 52,
+        "empty_count": 3,
+        "valid_count": 49,
+        "present_percentage": 100.0,
+        "empty_percentage": 5.769230769230769,
+        "valid_percentage": 94.23076923076923,
+        "completeness": 94.23076923076923,
+        "sample_values": [
+          [
+            "https://www.motojose.com.ar/database/articulos/fotos/179/LS2 MX RANGER FLASH_1.jpg",
+            "https://www.motojose.com.ar/database/articulos/fotos/179/LS2 MX RANGER FLASH_2.jpg",
+            "https://www.motojose.com.ar/database/articulos/fotos/179/LS2 MX RANGER FLASH_3.jpg",
+            "https://www.motojose.com.ar/database/articulos/fotos/179/LS2 MX RANGER FLASH_4.jpg"
+          ],
+          [
+            "https://www.motojose.com.ar/database/articulos/fotos/139/CASCO AGV K1 WINTERTEST_1.jpg",
+            "https://www.motojose.com.ar/database/articulos/fotos/139/AGV K1 WINTERTEST_3.jpg"
+          ],
+          [
+            "https://www.motojose.com.ar/database/articulos/fotos/845/ X-LITE X-803 ULTRA CARBON _1.jpg",
+            "https://www.motojose.com.ar/database/articulos/fotos/845/CASCO X-LITE X-803 ULTRA CARBON_1.jpg"
+          ]
+        ],
+        "unique_values_count": 49
+      },
+      "description": {
+        "present_count": 52,
+        "empty_count": 3,
+        "valid_count": 49,
+        "present_percentage": 100.0,
+        "empty_percentage": 5.769230769230769,
+        "valid_percentage": 94.23076923076923,
+        "completeness": 94.23076923076923,
+        "sample_values": [
+          "TOMA LA VELOCIDAD CON LOS RANGER. La perfecta combinación de materiales ultra-livianos y flexibles combinados con un diseño simple y moderno resultan en el guante mas ligero de la línea SPORT LS2 dándote la mayor ventaja en la pista. RESPIRABLE. PRINT NON-SLIP Primera Piel 82% Nylon, 18% Poliuretano PRINT NON-SLIP RESPIRABLE",
+          "AGV está diseñado para brindarte una experiencia inolvidable en cada uno de tus viajes. Sus cascos cuentan con una estructura compacta y que se adapta a la perfección, preservando al máximo tu seguridad y garantizando travesías cómodas y divertidas.\r\n\r\nMayor comodidad y seguridad en tu andar\r\nEste casco integral garantiza la máxima seguridad, ya que cubre desde el mentón hacia la nuca, de manera que la cabeza queda completamente protegida.\r\n\r\nUn visor que te protege en cada paso\r\nCon su visor simple vas a disfrutar de viajes placenteros y seguros, ya que protege tu visión de cualquier elemento del ambiente que pueda dañarte.\r\n\r\nRigidez y seguridad\r\nEstá confeccionado con materiales de primera calidad que absorben la energía y le otorgan gran rigidez. En caso de impacto, brindará la protección necesaria al amortiguar el golpe en un solo punto.\r\n\r\nBajos impactos\r\nSu material interior de poliestireno es acolchado y elástico, lo que permite mayor amortiguación y absorción del impacto cuando el casco se detiene.\r\n\r\nVentilación constante\r\nSu ventilación superior, inferior aporta frescura en todo momento, ya que permite respirar con tranquilidad, controlar la tr",
+          "El nuevo X-Lite X-803 Ultra Carbon es la nueva y evolucionada versión del casco más deportivo de NolanGroup, el X-802RR. Para su construcción se ha usado un alto contenido de fibra de carbono extremadamente ligero y resistente, y se ha aprovechado toda la experiencia de la marca en los mundiales de MotoGP y de Superbike. La adopción de un alerón posterior ajustable, hace que se gane en aerodinámica y se eviten turbulencias a alta velocidad.\r\n• Diseñado en Fibras de carbono, vidrio y kevlar\r\n• Resistente a arañazos\r\n• Equipado para la tecnología Pin Lock\r\n• Innovador mecanismo de visor con función de inclinación,\r\n• Protector solar VPS (que se puede ajustar a varias posiciones),\r\n• Sistema de ventilación superior AirBooster Technology\r\n• Sistema de extracción de emergencia NERS (permite sacar los acolchados laterales en caso de accidente sin forzar el área del cuello o la espalda)\r\n• Sistema de retención de Doble anilla\r\n• Innovador acolchado interior Unitherm2 (con telas microperforadas)\r\n• Interior desmontable y lavable\r\n\r\nCaracterísticas técnicas:\r\nHomologaciones:\r\n• DOT FMVSS NO. 218 (USA)\r\n• JIS T 8133 AND MFJ (JAPON)\r\n• SISIR SS9 (SINGAPUR)\r\n• KS G 7001 (COREA DEL SUR)\r\n• NBR 7471 (BRASIL)\r\n• SIN 1811-20007 (INDONESIA)\r\n\r\nCertificado ECE 22.05 E3\r\nTalles: XXS-XXL\r\nPeso: 1250 Gr\r\nCalotas: 3\r\nTipo de cierre: Doble anilla\r\nMaterial: Fibras de carbono, vidrio y kevlar\r\n"
+        ],
+        "unique_values_count": 34
+      },
+      "category_name": {
+        "present_count": 52,
+        "empty_count": 0,
+        "valid_count": 52,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Guantes",
+          "Cascos",
+          "Cascos"
+        ],
+        "unique_values_count": 2
+      },
+      "category_url": {
+        "present_count": 52,
+        "empty_count": 52,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "source": {
+        "present_count": 52,
+        "empty_count": 0,
+        "valid_count": 52,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          true,
+          true,
+          true
+        ],
+        "unique_values_count": 1
+      }
+    },
+    "critical_issues": [
+      {
+        "field": "price",
+        "empty_count": 1,
+        "empty_percentage": 1.9230769230769231
+      }
+    ],
+    "recommended_missing": [
+      {
+        "field": "brand",
+        "empty_percentage": 100.0
+      }
+    ],
+    "completeness_score": 68.19526627218934,
+    "products_100_complete": 0,
+    "products_critical_complete": 51
+  },
+  "sample_incomplete_products": [
+    {
+      "index": 0,
+      "name": "LS2 MX RANGER FLASH",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=179&art_nombre=LS2%20MX%20RANGER%20FLASH",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "CASCO AGV K1 WINTERTEST",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=139&art_nombre=CASCO%20AGV%20K1%20WINTERTEST",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "CASCO X-LITE X-803 ULTRA CARBON",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=845&art_nombre=CASCO%20X-LITE%20X-803%20ULTRA%20CARBON",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "CASCO VERTIGO V50 NEGRO MATE",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=800&art_nombre=CASCO%20VERTIGO%20V50%20NEGRO%20MATE",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "CASCO VERTIGO V50 INFINITY NARANJA",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=635&art_nombre=CASCO%20VERTIGO%20V50%20INFINITY%20NARANJA",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "CASCO TYPHOON SMK RD1 NEGRO MATE GRIS **6 CUOTAS SIN INTERES**",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1061&art_nombre=CASCO%20TYPHOON%20SMK%20RD1%20NEGRO%20MATE%20GRIS%20**6%20CUOTAS%20SIN%20INTERES**",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "CASCO SMK TYPHOON STYLE NEGRO ROJO GRIS **6 CUOTAS SIN INTERES**",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1090&art_nombre=CASCO%20SMK%20TYPHOON%20STYLE%20NEGRO%20ROJO%20GRIS%20**6%20CUOTAS%20SIN%20INTERES**",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "CASCO SMK TYPHOON STYLE NEGRO ROJO AMARILLO **6 CUOTAS SIN INTERES**",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1091&art_nombre=CASCO%20SMK%20TYPHOON%20STYLE%20NEGRO%20ROJO%20AMARILLO%20**6%20CUOTAS%20SIN%20INTERES**",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "CASCO SMK TYPHOON STYLE NEGRO GRIS **6 CUOTAS SIN INTERES**",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1089&art_nombre=CASCO%20SMK%20TYPHOON%20STYLE%20NEGRO%20GRIS%20**6%20CUOTAS%20SIN%20INTERES**",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "CASCO SMK TYPHOON REPTILE NEGRO VERDE **6 CUOTAS SIN INTERES**",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1226&art_nombre=CASCO%20SMK%20TYPHOON%20REPTILE%20NEGRO%20VERDE%20**6%20CUOTAS%20SIN%20INTERES**",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "images",
+        "description",
+        "category_url"
+      ]
+    }
+  ]
+}

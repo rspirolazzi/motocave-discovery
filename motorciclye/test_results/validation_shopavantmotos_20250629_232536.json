@@ -1,0 +1,214 @@
+{
+  "spider_name": "shopavantmotos",
+  "timestamp": "2025-06-29T23:25:36.893323",
+  "items_analyzed": 46,
+  "validations": {
+    "structure": {
+      "score": 93.77777777777777,
+      "issues": [
+        "Campo 'brand': 6.7% incompleto (3 vacíos)",
+        "Campo 'attrs': 6.7% incompleto (3 vacíos)",
+        "Campo 'discount_text': 100.0% incompleto (45 vacíos)",
+        "Campo 'description': 2.2% incompleto (1 vacíos)"
+      ],
+      "details": {
+        "sources_count": 1,
+        "products_count": 45,
+        "field_completeness": {
+          "menu_name": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "menu_url": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "product_url": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "name": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "price": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "brand": {
+            "completeness": 93.33333333333333,
+            "missing": 0,
+            "empty": 3,
+            "total_issues": 3
+          },
+          "attrs": {
+            "completeness": 93.33333333333333,
+            "missing": 0,
+            "empty": 3,
+            "total_issues": 3
+          },
+          "discount_text": {
+            "completeness": 0.0,
+            "missing": 0,
+            "empty": 45,
+            "total_issues": 45
+          },
+          "images": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "description": {
+            "completeness": 97.77777777777777,
+            "missing": 0,
+            "empty": 1,
+            "total_issues": 1
+          },
+          "category_name": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "category_url": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "source": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          }
+        },
+        "critical_field_issues": {},
+        "structure_issues": []
+      }
+    },
+    "data_quality": {
+      "score": 75,
+      "issues": [
+        "Se encontraron 8 productos duplicados"
+      ],
+      "details": {
+        "names_quality": {
+          "score": 100.0,
+          "issues": []
+        },
+        "prices_quality": {
+          "score": 100.0,
+          "issues": []
+        },
+        "brands_quality": {
+          "score": 93.33333333333333,
+          "issues": []
+        },
+        "duplicates": {
+          "count": 8,
+          "duplicates": [
+            "Nombre duplicado: Tornillo Regulador Aire Honda Xr250 Tornado Original Avant",
+            "Nombre duplicado: Placa Pizarra Mecanico Radikal Marcador-pitboards Avant",
+            "Nombre duplicado: Cartuchera Jansport Pixel Pouch Artist Floral Avant Motos",
+            "Nombre duplicado: Parlante Altavoz Bluetooth Impermeable Xiaomi Avant Motos",
+            "Nombre duplicado: Pava Eléctrica Eurocook 1.7 Lts 2200w Con Base Avant Motos",
+            "Nombre duplicado: Auriculares Bluetooth Eurosound Forum Avant Motos",
+            "Nombre duplicado: Auricular Inalambrico  Eurosound Brick Twe Avant Motos",
+            "Nombre duplicado: Auriculares Bluetooth Daewoo Candy Spark Avant Motos"
+          ]
+        }
+      }
+    },
+    "urls": {
+      "score": 0.0,
+      "issues": [
+        "URL de dominio incorrecto: https://www.shopavantmotos.com.ar/MLA-1573436258-aspiradora-robot-daewoo-delta-original-avant-motos-_JM?searchVariation=179293040546&pdp_filters=seller_id%3A212475070",
+        "URL de dominio incorrecto: https://www.shopavantmotos.com.ar/aspiradora-robot-daewoo-delta-aspira-trapeador-seco-350ml-color-negro/p/MLA24226918?pdp_filters=seller_id%3A212475070",
+        "URL de dominio incorrecto: https://www.shopavantmotos.com.ar/MLA-659819217-generador-honda-eg6500-cx-avant-motos-_JM?pdp_filters=seller_id%3A212475070",
+        "URL de dominio incorrecto: https://www.shopavantmotos.com.ar/MLA-2036194614-pizarra-mecanico-mx-atv-dcor-pitboard-con-marcador-avant-_JM?searchVariation=187317054607&pdp_filters=seller_id%3A212475070",
+        "URL de dominio incorrecto: https://www.shopavantmotos.com.ar/MLA-1766073026-generador-inverter-honda-eu22i-22kva-electrogeno-eu20-avant-_JM?pdp_filters=seller_id%3A212475070"
+      ],
+      "details": {
+        "valid_urls": 0,
+        "invalid_urls": 45
+      }
+    },
+    "prices": {
+      "score": 75.55555555555556,
+      "issues": [
+        "Precio fuera de rango: 3294000.0",
+        "Precio fuera de rango: 4284000.0",
+        "Precio fuera de rango: 4795700.0",
+        "Precio fuera de rango: 3141600.0",
+        "Precio fuera de rango: 2606100.0"
+      ],
+      "details": {
+        "valid_prices": 34,
+        "invalid_prices": 11
+      }
+    },
+    "images": {
+      "score": 100,
+      "issues": [],
+      "details": {
+        "products_with_images": 45,
+        "products_without_images": 0
+      }
+    },
+    "categories": {
+      "score": 100.0,
+      "issues": [
+        "Categorías faltantes: Cadenas, Cascos, Cubiertas, Filtros"
+      ],
+      "details": {
+        "found_categories": [
+          "Aspiradoras Robot",
+          "Cintas Reflectivas",
+          "Pizarras y Pizarrones",
+          "Tornillos",
+          "Cartucheras",
+          "Grupos Electrógenos",
+          "Jarras Eléctricas",
+          "Auriculares",
+          "Pegamentos",
+          "Parlantes y Bafles",
+          "Tuercas"
+        ],
+        "products_with_category": 45,
+        "expected_categories": [
+          "Cascos",
+          "Cubiertas",
+          "Filtros",
+          "Cadenas"
+        ]
+      }
+    },
+    "source_info": {
+      "score": 100,
+      "issues": [],
+      "details": {
+        "active_contacts": [
+          "fb",
+          "ig",
+          "phone",
+          "email"
+        ]
+      }
+    }
+  },
+  "score": 77.76190476190474,
+  "issues": [],
+  "recommendations": []
+}

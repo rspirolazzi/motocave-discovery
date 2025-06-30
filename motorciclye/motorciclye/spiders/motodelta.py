@@ -23,6 +23,8 @@ class MotodeltaSpider(BaseSpider):
     XPATH_PRODUCT_PRICE = '//*[@id="price"]/div/div[1]/div[1]/span/span/span[2]/text()'
     XPATH_PRODUCT_IMAGES = '//div//img/@data-zoom'
     XPATH_PRODUCT_DESCRIPTION = '//*[@class="ui-pdp-description__content"]/text()'
+    XPATH_PRODUCT_BRAND = '//table//tr[th[contains(translate(text(), "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz"), "marca")]]/td//span[@class="andes-table__column--value"]/text()'
+    XPATH_PRODUCT_ATTRS = None
     XPATH_BREADCRUMB_LAST = '//*[contains(@class, "andes-breadcrumb")]//li[last()]/a'
     HANDLE_PAGINATION = True  # Habilitar paginación por defecto
 
@@ -96,6 +98,11 @@ class MotodeltaSpider(BaseSpider):
             raise scrapy.exceptions.CloseSpider(f"Error al parsear fuente: {response.url} - {e}")
 
     def parse(self, response):
+        # Verificar si la URL actual debe ser ignorada
+        if self.should_ignore_url(response.url):
+            self.logger.info(f"Ignorando URL: {response.url}")
+            return
+        
         # Solo parsea la fuente si no se parseó antes (es decir, si no se usó SOURCE_INFO_URL)
         if not self.source_parsed:
             # Parseamos la fuente y hacemos yield del item para el pipeline
@@ -106,7 +113,7 @@ class MotodeltaSpider(BaseSpider):
         # Selecciona los items del menú principal
         menu_items = response.xpath(self.XPATH_MENU_ITEMS)
         for item in menu_items:
-            submenu = item.xpath(self.XPATH_SUBMENU)
+            submenu = item.xpath(self.XPATH_SUBMENU) if self.XPATH_SUBMENU else []
             link = item.xpath(self.XPATH_MENU_LINK)
             href = link.xpath(self.XPATH_MENU_LINK_HREF).get()
             name = link.xpath(self.XPATH_MENU_LINK_TEXT).get()
@@ -162,6 +169,28 @@ class MotodeltaSpider(BaseSpider):
                     }
                 )
 
+    def parse_product_attrs(self, response):
+        """Extrae todos los atributos de la tabla de especificaciones"""
+        if not self.XPATH_PRODUCT_ATTRS:
+            # Si no hay XPATH específico, extraer toda la tabla
+            attrs = {}
+            rows = response.xpath('//table[@class="andes-table"]//tr[th and td]')
+            for row in rows:
+                key = row.xpath('.//th//text()').get()
+                value = row.xpath('.//td//span[@class="andes-table__column--value"]/text()').get()
+                if key and value:
+                    attrs[key.strip()] = value.strip()
+            return attrs
+        else:
+            return response.xpath(self.XPATH_PRODUCT_ATTRS).getall() if self.XPATH_PRODUCT_ATTRS else []
+
+    def parse_product_brand(self, response):
+        """Extrae la marca del producto desde la tabla de especificaciones"""
+        brand = self.parse_product_attrs(response).get('Marca')
+        if brand:
+            return brand.strip()
+        return None
+
     def parse_product(self, response):
         try:
             self.logger.info(f"Parseando producto: {response.url}")
@@ -169,6 +198,10 @@ class MotodeltaSpider(BaseSpider):
             price = self.parse_product_price(response)
             images = self.parse_product_images(response)
             description = self.parse_product_description(response)
+            attrs = self.parse_product_attrs(response)
+            brand = self.parse_product_brand(response)
+            discount_text = self.parse_product_discount_text(response)
+            payments = self.parse_product_payments(response)
 
             menu_name = response.meta.get('menu_name')
             menu_url = response.meta.get('menu_url')
@@ -185,6 +218,10 @@ class MotodeltaSpider(BaseSpider):
                 'product_url': response.url,
                 'name': name,
                 'price': price,
+                'brand': brand,
+                'attrs': attrs,
+                'payments': payments,
+                'discount_text': discount_text,
                 'images': images,
                 'description': description,
                 'category_name': category_name,

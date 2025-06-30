@@ -1,0 +1,340 @@
+{
+  "spider_name": "masxmoto",
+  "timestamp": "20250629_233043",
+  "analysis": {
+    "total_products": 35,
+    "field_stats": {
+      "menu_name": {
+        "present_count": 35,
+        "empty_count": 0,
+        "valid_count": 35,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Cascos",
+          "Intercomunicadores",
+          "Cascos"
+        ],
+        "unique_values_count": 2
+      },
+      "menu_url": {
+        "present_count": 35,
+        "empty_count": 0,
+        "valid_count": 35,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.masxmoto.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/",
+          "https://www.masxmoto.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/intercomunicadores/",
+          "https://www.masxmoto.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/"
+        ],
+        "unique_values_count": 2
+      },
+      "product_url": {
+        "present_count": 35,
+        "empty_count": 0,
+        "valid_count": 35,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.masxmoto.com.ar/MLA-1449429259-casco-abierto-ls2-570-verso-doble-visor-negro-liso-masxmoto-_JM?searchVariation=181623938910&pdp_filters=seller_id%3A154329119",
+          "https://www.masxmoto.com.ar/intercomunicador-maxto-m2-6-canales-en-simultaneo-masxmoto/up/MLAU724087498?pdp_filters=seller_id%3A154329119",
+          "https://www.masxmoto.com.ar/MLA-1438313591-casco-integral-ls2-805-thunder-carbono-pista-graficas-mxm-_JM?searchVariation=183763488851&pdp_filters=seller_id%3A154329119"
+        ],
+        "unique_values_count": 35
+      },
+      "name": {
+        "present_count": 35,
+        "empty_count": 0,
+        "valid_count": 35,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Casco Abierto Ls2 570 Verso Doble Visor Negro Liso Masxmoto",
+          "Intercomunicador Maxto M2 6 Canales En Simultaneo Masxmoto",
+          "Casco Integral Ls2 805 Thunder Carbono Pista Graficas Mxm"
+        ],
+        "unique_values_count": 35
+      },
+      "price": {
+        "present_count": 35,
+        "empty_count": 0,
+        "valid_count": 35,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          317000.0,
+          164000.0,
+          1158900.0
+        ],
+        "unique_values_count": 34
+      },
+      "brand": {
+        "present_count": 35,
+        "empty_count": 0,
+        "valid_count": 35,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "LS2",
+          "Maxto",
+          "LS2"
+        ],
+        "unique_values_count": 8
+      },
+      "attrs": {
+        "present_count": 35,
+        "empty_count": 0,
+        "valid_count": 35,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          {
+            "Acabado": "Mate",
+            "Tipo de casco": "Abierto",
+            "Estilo de conducción en moto": "Turismo",
+            "Edad": "Adultos",
+            "Materiales del interior": "Poliestireno",
+            "Materiales del exterior": "Kpa",
+            "Marca": "LS2",
+            "Línea": "570",
+            "Modelo": "570 VERSO VECTOR",
+            "Modelo alfanumérico": "570",
+            "Normas de seguridad": "ECE 22 05"
+          },
+          {
+            "Marca": "Maxto",
+            "Modelo": "M2",
+            "Número de pieza": "1",
+            "Color": "Negro",
+            "Cantidad de intercomunicadores": "1"
+          },
+          {
+            "Acabado": "Brillante",
+            "Tipo de casco": "Integral",
+            "Estilo de conducción en moto": "Deportivo",
+            "Edad": "Adultos",
+            "Materiales del interior": "X-Static©",
+            "Materiales del exterior": "X-Static",
+            "Marca": "LS2",
+            "Línea": "Integral",
+            "Modelo": "805 THUNDER",
+            "Modelo alfanumérico": "805",
+            "Normas de seguridad": "ECE22.05"
+          }
+        ],
+        "unique_values_count": 34
+      },
+      "discount_text": {
+        "present_count": 35,
+        "empty_count": 35,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "images": {
+        "present_count": 35,
+        "empty_count": 0,
+        "valid_count": 35,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_803006-MLA79170263619_092024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_690403-MLA79170263631_092024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_612510-MLA79170627833_092024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_601147-MLA79170696991_092024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_911786-MLA78931623042_092024-F.jpg"
+          ],
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_605017-MLA78793592699_082024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_670359-MLA78793828119_082024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_873140-MLA78793897115_082024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_831033-MLA78793729641_082024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_744892-MLA78793729647_082024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_829025-MLA78793504513_082024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_991345-MLA78793592819_082024-F.jpg"
+          ],
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_822709-MLA77793884239_072024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_759951-MLA77794296783_072024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_632707-MLA77575792356_072024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_889561-MLA77793884283_072024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_922476-MLA77576194942_072024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_985726-MLA77793894327_072024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_904451-MLA77575998268_072024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_895648-MLA77576165194_072024-F.jpg"
+          ]
+        ],
+        "unique_values_count": 35
+      },
+      "description": {
+        "present_count": 35,
+        "empty_count": 1,
+        "valid_count": 34,
+        "present_percentage": 100.0,
+        "empty_percentage": 2.857142857142857,
+        "valid_percentage": 97.14285714285714,
+        "completeness": 97.14285714285714,
+        "sample_values": [
+          "Casco Abierto 570 Verso de LS2\rDiseñado para vivir la ciudad intensamente, el Verso de LS2 combina un compuesto seguro y liviano KPA (un material altamente flexible y duradero) con un diseño de línea suave. Es el casco ideal para aquellos usuarios que necesitan comodidad y un diseño liviano para el uso diario, sin comprometer la seguridad.\r¿Qué lo hace único?\rCaracterísticas Generales\rPeso: GR 1250 ± 50\rCertificación ECE 22.05\rMaterial KPA\r2 Calotas\rEstilo Urbano\rSeguridad\rCorrea de liberación rápida (Micrométrica)\rCorrea reforzada\rHebilla de acero\rAdhesivos reflectivos\rEPS Multi Densidad\rCuello de Seguridad\rVentilación\rVentilación superior\rPuertos de salida\rCanales de Ventilación\rVisor\rDoble Visor / Simple transparente & Solar\rAntirrasguños\rProtección UV\rGenerador de Vortice\rInterior\rDesmontable y lavable\rTranspirable\rHipoalergénico\rEspuma cortada con láser",
+          "Características principales:\r- Hasta 6 personas conectadas hablando en simultáneo\r- Distancia de funcionamiento 1000m\r- Hasta 2 teléfonos móviles en un mismo equipo\r- Radio FM\r- Se conecta a cualquier auricular BT\r- Calidad de voz nítida a alta velocidad garantizada\r- A prueba de agua, polvo y golpes\r- Bluetooth 5.0\r- Batería de larga duración\rEspecificaciones Técnicas:\r- Tecnología Cancelación de eco y DSP supresión de ruido ambiente\r- Carcasa ABS\r- Clasificación IP67 (agua, polvo, golpes)\r- Distancia máxima de intercomunicador: 1000 metros\r- Capacidad de la batería: 500 mAh\r- Fuente de alimentación: 5V 0.5A\r- Tiempo de carga: 2.5 H\r- Tiempo de trabajo: 10H\r- Tiempo en espera: 200 h\r- Rango de temperatura de funcionamiento: -10 a +55\rIncluye:\r- Intercomunicador de casco x1\r- Microfono x2\r- Auriculares x1 par\r- Clip x1\r- Llave Hexagonal x1\r- Clip adhesivo x1\r- Cable de carga USB x1\r- Etiqueta de auriculares extra x4\r- Manual de usuario\rGarantía de fábrica: 30 días",
+          "Este producto no tiene descripción."
+        ],
+        "unique_values_count": 30
+      },
+      "category_name": {
+        "present_count": 35,
+        "empty_count": 0,
+        "valid_count": 35,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Cascos",
+          "Intercomunicadores",
+          "Cascos"
+        ],
+        "unique_values_count": 2
+      },
+      "category_url": {
+        "present_count": 35,
+        "empty_count": 0,
+        "valid_count": 35,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.masxmoto.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/",
+          "https://www.masxmoto.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/intercomunicadores/",
+          "https://www.masxmoto.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/"
+        ],
+        "unique_values_count": 2
+      },
+      "source": {
+        "present_count": 35,
+        "empty_count": 0,
+        "valid_count": 35,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          true,
+          true,
+          true
+        ],
+        "unique_values_count": 1
+      }
+    },
+    "critical_issues": [],
+    "recommended_missing": [],
+    "completeness_score": 92.08791208791209,
+    "products_100_complete": 0,
+    "products_critical_complete": 35
+  },
+  "sample_incomplete_products": [
+    {
+      "index": 0,
+      "name": "Casco Abierto Ls2 570 Verso Doble Visor Negro Liso Masxmoto",
+      "url": "https://www.masxmoto.com.ar/MLA-1449429259-casco-abierto-ls2-570-verso-doble-visor-negro-liso-masxmoto-_JM?searchVariation=181623938910&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Intercomunicador Maxto M2 6 Canales En Simultaneo Masxmoto",
+      "url": "https://www.masxmoto.com.ar/intercomunicador-maxto-m2-6-canales-en-simultaneo-masxmoto/up/MLAU724087498?pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Casco Integral Ls2 805 Thunder Carbono Pista Graficas Mxm",
+      "url": "https://www.masxmoto.com.ar/MLA-1438313591-casco-integral-ls2-805-thunder-carbono-pista-graficas-mxm-_JM?searchVariation=183763488851&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Casco Integral Moto Ls2 352 Rookie Negro Liso Masxmoto",
+      "url": "https://www.masxmoto.com.ar/MLA-1447934677-casco-integral-moto-ls2-352-rookie-negro-liso-masxmoto-_JM?searchVariation=184683429297&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "Casco Moto Integral Hawk Rs1 Negro Liso Brillo Mate Masxmoto",
+      "url": "https://www.masxmoto.com.ar/MLA-1909480864-casco-moto-integral-hawk-rs1-negro-liso-brillo-mate-masxmoto-_JM?searchVariation=184866478069&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Casco Integral Ls2 805 Thunder Carbono Negro Mate Liso Mxm",
+      "url": "https://www.masxmoto.com.ar/MLA-1850754024-casco-integral-ls2-805-thunder-carbono-negro-mate-liso-mxm-_JM?searchVariation=183763905309&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "Casco Moto Ls2 900 Valiant 2 Rebatible 180° Negro Liso Mxm",
+      "url": "https://www.masxmoto.com.ar/MLA-1850974568-casco-moto-ls2-900-valiant-2-rebatible-180-negro-liso-mxm-_JM?searchVariation=181121867454&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "Casco Moto Ls2 800 Storm Integral Lentes Graficas Masxmoto",
+      "url": "https://www.masxmoto.com.ar/MLA-1866245614-casco-moto-ls2-800-storm-integral-lentes-graficas-masxmoto-_JM?searchVariation=181230728666&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Casco Moto Integral Ls2 808 Stream || D/visor Liso Masxmoto",
+      "url": "https://www.masxmoto.com.ar/MLA-1446736691-casco-moto-integral-ls2-808-stream-dvisor-liso-masxmoto-_JM?searchVariation=184578707311&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "Casco Moto Abierto Mac 181 Bowie Negro Brillo Liso Masxmoto",
+      "url": "https://www.masxmoto.com.ar/MLA-1911713854-casco-moto-abierto-mac-181-bowie-negro-brillo-liso-masxmoto-_JM?searchVariation=184930073655&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    }
+  ]
+}

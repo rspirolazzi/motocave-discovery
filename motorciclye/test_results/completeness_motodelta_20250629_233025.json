@@ -1,0 +1,351 @@
+{
+  "spider_name": "motodelta",
+  "timestamp": "20250629_233025",
+  "analysis": {
+    "total_products": 25,
+    "field_stats": {
+      "menu_name": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "MT Helmets",
+          "MT Helmets",
+          "MT Helmets"
+        ],
+        "unique_values_count": 2
+      },
+      "menu_url": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motodelta.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/mt-helmets/",
+          "https://www.motodelta.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/mt-helmets/",
+          "https://www.motodelta.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/mt-helmets/"
+        ],
+        "unique_values_count": 2
+      },
+      "product_url": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motodelta.com.ar/MLA-1455517739-casco-mt-helmets-kre-fim-carbon-powerful-alta-gama-md-_JM?searchVariation=181941731776&pdp_filters=seller_id%3A44012389",
+          "https://www.motodelta.com.ar/MLA-1401936095-casco-moto-mt-helmets-jarama-retro-68th-c9-vintage-motodelta-_JM?searchVariation=179651041286&pdp_filters=seller_id%3A44012389",
+          "https://www.motodelta.com.ar/MLA-1960756444-casco-abierto-mt-helmets-viale-sv-68-unit-d7-azul-doblevisor-_JM?searchVariation=182265517464&pdp_filters=seller_id%3A44012389"
+        ],
+        "unique_values_count": 25
+      },
+      "name": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Casco Mt Helmets Kre+ Fim Carbon Powerful Alta Gama Md!",
+          "Casco Moto Mt Helmets Jarama Retro 68th C9 Vintage Motodelta",
+          "Casco Abierto Mt Helmets Viale Sv 68 Unit D7 Azul Doblevisor"
+        ],
+        "unique_values_count": 25
+      },
+      "price": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          1100000.0,
+          275000.0,
+          129000.0
+        ],
+        "unique_values_count": 24
+      },
+      "brand": {
+        "present_count": 25,
+        "empty_count": 1,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 4.0,
+        "valid_percentage": 96.0,
+        "completeness": 96.0,
+        "sample_values": [
+          "MT Helmets",
+          "MT Helmets",
+          "MT Helmets"
+        ],
+        "unique_values_count": 5
+      },
+      "attrs": {
+        "present_count": 25,
+        "empty_count": 1,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 4.0,
+        "valid_percentage": 96.0,
+        "completeness": 96.0,
+        "sample_values": [
+          {
+            "Marca": "MT Helmets",
+            "Línea": "Kre+ FIM",
+            "Modelo": "KRE+",
+            "Materiales del interior": "Poliestireno",
+            "Materiales del exterior": "Carbono",
+            "Tipo de visor": "Simple",
+            "Tipo de casco": "Integral",
+            "Estilo de conducción en moto": "Deportivo",
+            "Edad": "Adultos",
+            "Normas de seguridad": "ECE 22 06"
+          },
+          {
+            "Acabado": "No aplica",
+            "Tipo de casco": "Integral",
+            "Estilo de conducción en moto": "Urbano",
+            "Edad": "Adultos",
+            "Materiales del interior": "Poliamida",
+            "Materiales del exterior": "Policarbonato",
+            "Marca": "MT Helmets",
+            "Línea": "Jarama",
+            "Modelo": "Jarama",
+            "Modelo alfanumérico": "1319931",
+            "Normas de seguridad": "Ece22.06"
+          },
+          {
+            "Marca": "MT Helmets",
+            "Línea": "Viale",
+            "Modelo": "Viale SV",
+            "Materiales del interior": "Poliestireno",
+            "Materiales del exterior": "Policarbonato",
+            "Tipo de casco": "Abierto",
+            "Estilo de conducción en moto": "Urbano",
+            "Edad": "Adultos",
+            "Normas de seguridad": "ECE 22.06"
+          }
+        ],
+        "unique_values_count": 24
+      },
+      "discount_text": {
+        "present_count": 25,
+        "empty_count": 25,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "images": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_911778-MLA80020428833_102024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_920648-MLA80020535949_102024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_771985-MLA80020300799_102024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_669943-MLA80020124179_102024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_731448-MLA80020323777_102024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_994082-MLA80020429369_102024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_843733-MLA80020310681_102024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_734960-MLA80020498063_102024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_644205-MLA80020143755_102024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_965588-MLA80020536011_102024-F.jpg"
+          ],
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_686361-MLA73825075822_012024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_985318-MLA73925069855_012024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_971834-MLA73824830254_012024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_620301-MLA73825066098_012024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_898015-MLA73825066100_012024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_774529-MLA73824830262_012024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_914465-MLA73825104994_012024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_777146-MLA73824869664_012024-F.jpg"
+          ],
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_757901-MLA80792016963_112024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_921732-MLA80792135399_112024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_772295-MLA80791664325_112024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_667606-MLA80530248136_112024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_938267-MLA80792165083_112024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_883410-MLA80791664327_112024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_656438-MLA80791898529_112024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_794735-MLA80792105455_112024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_747479-MLA80530248146_112024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_980482-MLA80792165077_112024-F.jpg"
+          ]
+        ],
+        "unique_values_count": 25
+      },
+      "description": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "INCLUYE:",
+          "El MT Jarama es el primer casco retro homologado bajo las normativas ECE 22.06. Y, por supuesto, ya cuenta con la homologación DOT.",
+          "Viale SV S es el compañero perfecto para el motociclista urbano que busca confort, seguridad y ajuste en su día a día. Este casco une todas estas cualidades con un diseño de calota elegante, una amplia gama de colores y un precio sin competencia."
+        ],
+        "unique_values_count": 15
+      },
+      "category_name": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Cascos",
+          "Cascos",
+          "Cascos"
+        ],
+        "unique_values_count": 2
+      },
+      "category_url": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motodelta.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/",
+          "https://www.motodelta.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/",
+          "https://www.motodelta.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/"
+        ],
+        "unique_values_count": 2
+      },
+      "source": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          true,
+          true,
+          true
+        ],
+        "unique_values_count": 1
+      }
+    },
+    "critical_issues": [],
+    "recommended_missing": [],
+    "completeness_score": 91.6923076923077,
+    "products_100_complete": 0,
+    "products_critical_complete": 25
+  },
+  "sample_incomplete_products": [
+    {
+      "index": 0,
+      "name": "Casco Mt Helmets Kre+ Fim Carbon Powerful Alta Gama Md!",
+      "url": "https://www.motodelta.com.ar/MLA-1455517739-casco-mt-helmets-kre-fim-carbon-powerful-alta-gama-md-_JM?searchVariation=181941731776&pdp_filters=seller_id%3A44012389",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Casco Moto Mt Helmets Jarama Retro 68th C9 Vintage Motodelta",
+      "url": "https://www.motodelta.com.ar/MLA-1401936095-casco-moto-mt-helmets-jarama-retro-68th-c9-vintage-motodelta-_JM?searchVariation=179651041286&pdp_filters=seller_id%3A44012389",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Casco Abierto Mt Helmets Viale Sv 68 Unit D7 Azul Doblevisor",
+      "url": "https://www.motodelta.com.ar/MLA-1960756444-casco-abierto-mt-helmets-viale-sv-68-unit-d7-azul-doblevisor-_JM?searchVariation=182265517464&pdp_filters=seller_id%3A44012389",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Casco Mt Helmets Synchrony Duo Sport Doble Visor Graficas Md",
+      "url": "https://www.motodelta.com.ar/MLA-1951439012-casco-mt-helmets-synchrony-duo-sport-doble-visor-graficas-md-_JM?searchVariation=185920068177&pdp_filters=seller_id%3A44012389",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "Casco Moto Mt Helmets Jarama Retro Grafica Vintage Motodelta",
+      "url": "https://www.motodelta.com.ar/MLA-1625103158-casco-moto-mt-helmets-jarama-retro-grafica-vintage-motodelta-_JM?searchVariation=179643280146&pdp_filters=seller_id%3A44012389",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Soporte Baul Trasero Kraftec Bmw G310gs 2018 P/ Givi O Kappa",
+      "url": "https://www.motodelta.com.ar/MLA-771828401-soporte-baul-trasero-kraftec-bmw-g310gs-2018-p-givi-o-kappa-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "Soporte Trasero Givi Royal Enfield Interceptor 650 Motodelta",
+      "url": "https://www.motodelta.com.ar/MLA-927714228-soporte-trasero-givi-royal-enfield-interceptor-650-motodelta-_JM?searchVariation=89559807232",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "Soporte Lateral Shad 4p Cf Moto 800mt Baul O Alforjas Terra",
+      "url": "https://www.motodelta.com.ar/MLA-1447494898-soporte-lateral-shad-4p-cf-moto-800mt-baul-o-alforjas-terra-_JM?searchVariation=178978662711",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Soporte Lateral Kappa K33 Givi V35 Kawasaki Versys 650 2016",
+      "url": "https://www.motodelta.com.ar/MLA-645413855-soporte-lateral-kappa-k33-givi-v35-kawasaki-versys-650-2016-_JM?searchVariation=41820074336",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "Soportes Laterales Givi Royal Enfield Meteor 350 Moto Delta",
+      "url": "https://www.motodelta.com.ar/MLA-1626338406-soportes-laterales-givi-royal-enfield-meteor-350-moto-delta-_JM?searchVariation=181392340219",
+      "missing_fields": [
+        "discount_text"
+      ]
+    }
+  ]
+}

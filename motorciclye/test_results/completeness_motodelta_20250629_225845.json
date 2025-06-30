@@ -1,0 +1,336 @@
+{
+  "spider_name": "motodelta",
+  "timestamp": "20250629_225845",
+  "analysis": {
+    "total_products": 27,
+    "field_stats": {
+      "menu_name": {
+        "present_count": 27,
+        "empty_count": 0,
+        "valid_count": 27,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Axxis",
+          "Axxis",
+          "Portaequipajes"
+        ],
+        "unique_values_count": 2
+      },
+      "menu_url": {
+        "present_count": 27,
+        "empty_count": 0,
+        "valid_count": 27,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motodelta.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/axxis/",
+          "https://www.motodelta.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/axxis/",
+          "https://www.motodelta.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/baules-anclajes/portaequipajes/"
+        ],
+        "unique_values_count": 2
+      },
+      "product_url": {
+        "present_count": 27,
+        "empty_count": 0,
+        "valid_count": 27,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motodelta.com.ar/MLA-787128387-casco-moto-axxis-draken-by-mt-helmets-nuken-ronin-x-road-cts-_JM?searchVariation=177459863880",
+          "https://www.motodelta.com.ar/MLA-620006961-casco-rebatible-axxis-roc-sv-solid-doble-visor-moto-delta-_JM?searchVariation=181281649123",
+          "https://www.motodelta.com.ar/MLA-705328286-soporte-baul-trasero-givi-yamaha-mt-07-tracer-moto-delta-_JM?searchVariation=50641023842"
+        ],
+        "unique_values_count": 27
+      },
+      "name": {
+        "present_count": 27,
+        "empty_count": 0,
+        "valid_count": 27,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Casco Moto Axxis Draken By Mt Helmets Nuken Ronin X-road Cts",
+          "Casco Rebatible Axxis Roc Sv Solid Doble Visor Moto Delta",
+          "Soporte Baul Trasero Givi Yamaha Mt 07 Tracer Moto Delta"
+        ],
+        "unique_values_count": 27
+      },
+      "price": {
+        "present_count": 27,
+        "empty_count": 0,
+        "valid_count": 27,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          191700.0,
+          199000.0,
+          219298.0
+        ],
+        "unique_values_count": 25
+      },
+      "brand": {
+        "present_count": 27,
+        "empty_count": 1,
+        "valid_count": 26,
+        "present_percentage": 100.0,
+        "empty_percentage": 3.7037037037037033,
+        "valid_percentage": 96.29629629629629,
+        "completeness": 96.29629629629629,
+        "sample_values": [
+          "Axxis",
+          "Axxis",
+          "Givi"
+        ],
+        "unique_values_count": 6
+      },
+      "attrs": {
+        "present_count": 27,
+        "empty_count": 1,
+        "valid_count": 26,
+        "present_percentage": 100.0,
+        "empty_percentage": 3.7037037037037033,
+        "valid_percentage": 96.29629629629629,
+        "completeness": 96.29629629629629,
+        "sample_values": [
+          {
+            "Acabado": "No aplica",
+            "Tipo de casco": "Integral",
+            "Estilo de conducción en moto": "Urbano",
+            "Edad": "Adultos",
+            "Materiales del interior": "Poliestireno",
+            "Materiales del exterior": "ABS",
+            "Tipo de visor": "Simple",
+            "Marca": "Axxis",
+            "Línea": "Draken",
+            "Modelo": "X-Road",
+            "Modelo alfanumérico": "Draken",
+            "Normas de seguridad": "ECE 22 05"
+          },
+          {
+            "Acabado": "No aplica",
+            "Tipo de casco": "Multi-Modular",
+            "Estilo de conducción en moto": "Urbano",
+            "Edad": "Adultos",
+            "Materiales del interior": "Poliestireno",
+            "Materiales del exterior": "Policarbonato",
+            "Tipo de visor": "Doble",
+            "Marca": "Axxis",
+            "Línea": "352",
+            "Modelo": "ROC SV",
+            "Modelo alfanumérico": "352",
+            "Normas de seguridad": "ECE 22 05"
+          },
+          {
+            "Marca": "Givi",
+            "Modelo": "mt07 tracer"
+          }
+        ],
+        "unique_values_count": 26
+      },
+      "discount_text": {
+        "present_count": 27,
+        "empty_count": 27,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "images": {
+        "present_count": 27,
+        "empty_count": 0,
+        "valid_count": 27,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_714180-MLA54951146223_042023-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_799999-MLA54951115117_042023-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_876953-MLA54951111101_042023-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_611877-MLA54951077783_042023-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_646594-MLA54951115125_042023-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_911023-MLA54951123367_042023-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_833982-MLA54951115123_042023-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_954219-MLA54951105477_042023-F.jpg"
+          ],
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_631619-MLA73759065265_012024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_986436-MLA73759065267_012024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_740605-MLA73758859515_012024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_897387-MLA73758859517_012024-F.jpg"
+          ],
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_896426-MLA41295357092_032020-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_725629-MLA42496928726_072020-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_650945-MLA26750549374_022018-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_759368-MLA46092754937_052021-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_818611-MLA46259682227_062021-F.jpg"
+          ]
+        ],
+        "unique_values_count": 27
+      },
+      "description": {
+        "present_count": 27,
+        "empty_count": 0,
+        "valid_count": 27,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Descripción",
+          "MOTO DELTA S.C.",
+          "---MOTO DELTA S.C.---"
+        ],
+        "unique_values_count": 15
+      },
+      "category_name": {
+        "present_count": 27,
+        "empty_count": 0,
+        "valid_count": 27,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Cascos",
+          "Cascos",
+          "Portaequipajes"
+        ],
+        "unique_values_count": 2
+      },
+      "category_url": {
+        "present_count": 27,
+        "empty_count": 0,
+        "valid_count": 27,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motodelta.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/",
+          "https://www.motodelta.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/",
+          "https://www.motodelta.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/baules-anclajes/portaequipajes/"
+        ],
+        "unique_values_count": 2
+      },
+      "source": {
+        "present_count": 27,
+        "empty_count": 0,
+        "valid_count": 27,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          true,
+          true,
+          true
+        ],
+        "unique_values_count": 1
+      }
+    },
+    "critical_issues": [],
+    "recommended_missing": [],
+    "completeness_score": 91.73789173789174,
+    "products_100_complete": 0,
+    "products_critical_complete": 27
+  },
+  "sample_incomplete_products": [
+    {
+      "index": 0,
+      "name": "Casco Moto Axxis Draken By Mt Helmets Nuken Ronin X-road Cts",
+      "url": "https://www.motodelta.com.ar/MLA-787128387-casco-moto-axxis-draken-by-mt-helmets-nuken-ronin-x-road-cts-_JM?searchVariation=177459863880",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Casco Rebatible Axxis Roc Sv Solid Doble Visor Moto Delta",
+      "url": "https://www.motodelta.com.ar/MLA-620006961-casco-rebatible-axxis-roc-sv-solid-doble-visor-moto-delta-_JM?searchVariation=181281649123",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Soporte Baul Trasero Givi Yamaha Mt 07 Tracer Moto Delta",
+      "url": "https://www.motodelta.com.ar/MLA-705328286-soporte-baul-trasero-givi-yamaha-mt-07-tracer-moto-delta-_JM?searchVariation=50641023842",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Parrilla Porta Paquete Para Baul Givi E142b Trekker 52 Md",
+      "url": "https://www.motodelta.com.ar/MLA-837799111-parrilla-porta-paquete-para-baul-givi-e142b-trekker-52-md-_JM?searchVariation=50255839018",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "Soporte Trasero Givi Royal Enfield Classic 500 Con Sillin",
+      "url": "https://www.motodelta.com.ar/MLA-1111026603-soporte-trasero-givi-royal-enfield-classic-500-con-sillin-_JM?searchVariation=173875908804",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Soporte Baul Trasero Kappa Kymco Downtown 300i Moto Delta",
+      "url": "https://www.motodelta.com.ar/MLA-740295380-soporte-baul-trasero-kappa-kymco-downtown-300i-moto-delta-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "Base Trasera Givi Kymco Agility 125 200 R16 Ct.",
+      "url": "https://www.motodelta.com.ar/MLA-752480313-base-trasera-givi-kymco-agility-125-200-r16-ct-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "Soporte Baul Trasero Kraftec Bmw G310gs 2018 P/ Givi O Kappa",
+      "url": "https://www.motodelta.com.ar/MLA-771828401-soporte-baul-trasero-kraftec-bmw-g310gs-2018-p-givi-o-kappa-_JM",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Soporte Trasero Givi Royal Enfield Interceptor 650 Motodelta",
+      "url": "https://www.motodelta.com.ar/MLA-927714228-soporte-trasero-givi-royal-enfield-interceptor-650-motodelta-_JM?searchVariation=89559807232",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "Soporte Lateral Shad 4p Cf Moto 800mt Baul O Alforjas Terra",
+      "url": "https://www.motodelta.com.ar/MLA-1447494898-soporte-lateral-shad-4p-cf-moto-800mt-baul-o-alforjas-terra-_JM?searchVariation=178978662711",
+      "missing_fields": [
+        "discount_text"
+      ]
+    }
+  ]
+}

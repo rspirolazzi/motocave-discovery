@@ -1,0 +1,327 @@
+{
+  "spider_name": "masxmoto",
+  "timestamp": "20250629_232209",
+  "analysis": {
+    "total_products": 25,
+    "field_stats": {
+      "menu_name": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Indumentaria y Calzado",
+          "Cascos",
+          "Indumentaria y Calzado"
+        ],
+        "unique_values_count": 2
+      },
+      "menu_url": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.masxmoto.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/indumentaria-calzado/indumentaria-calzado/",
+          "https://www.masxmoto.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/",
+          "https://www.masxmoto.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/indumentaria-calzado/indumentaria-calzado/"
+        ],
+        "unique_values_count": 2
+      },
+      "product_url": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.masxmoto.com.ar/campera-moto-punto-extremo-pk01-super-oferta-masxmoto/up/MLAU3165808470?pdp_filters=seller_id%3A154329119",
+          "https://www.masxmoto.com.ar/MLA-1449429259-casco-abierto-ls2-570-verso-doble-visor-negro-liso-masxmoto-_JM?searchVariation=181623938910&pdp_filters=seller_id%3A154329119",
+          "https://www.masxmoto.com.ar/MLA-1448043041-campera-moto-nto-zip-hoodie-neoprene-protecciones-masxmoto-_JM?searchVariation=184686948891&pdp_filters=seller_id%3A154329119"
+        ],
+        "unique_values_count": 25
+      },
+      "name": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Campera Moto Punto Extremo Pk01 Super Oferta! Masxmoto Rojo Lisa M",
+          "Casco Abierto Ls2 570 Verso Doble Visor Negro Liso Masxmoto",
+          "Campera Moto Nto Zip Hoodie Neoprene Protecciones Masxmoto"
+        ],
+        "unique_values_count": 25
+      },
+      "price": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          146500.0,
+          317000.0,
+          174400.0
+        ],
+        "unique_values_count": 22
+      },
+      "brand": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Punto Extremo",
+          "LS2",
+          "NTO - Nine To One"
+        ],
+        "unique_values_count": 9
+      },
+      "attrs": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          {
+            "Marca": "Punto Extremo",
+            "Modelo": "PK-01",
+            "Color": "Rojo",
+            "Diseño de la tela": "Lisa"
+          },
+          {
+            "Acabado": "Mate",
+            "Tipo de casco": "Abierto",
+            "Estilo de conducción en moto": "Turismo",
+            "Edad": "Adultos",
+            "Materiales del interior": "Poliestireno",
+            "Materiales del exterior": "Kpa",
+            "Marca": "LS2",
+            "Línea": "570",
+            "Modelo": "570 VERSO VECTOR",
+            "Modelo alfanumérico": "570",
+            "Normas de seguridad": "ECE 22 05"
+          },
+          {
+            "Marca": "NTO - Nine To One",
+            "Modelo": "ZIP HOODIE ARMOR EVO"
+          }
+        ],
+        "unique_values_count": 22
+      },
+      "discount_text": {
+        "present_count": 25,
+        "empty_count": 25,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "images": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_607416-MLA84097259466_052025-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_917328-MLA84393400905_052025-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_616783-MLA84393410843_052025-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_878116-MLA84393450131_052025-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_969254-MLA84393410859_052025-F.jpg"
+          ],
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_803006-MLA79170263619_092024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_690403-MLA79170263631_092024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_612510-MLA79170627833_092024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_601147-MLA79170696991_092024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_911786-MLA78931623042_092024-F.jpg"
+          ],
+          [
+            "https://http2.mlstatic.com/D_NQ_NP_777526-MLA78972480003_092024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_877967-MLA78972429997_092024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_960252-MLA78972460027_092024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_939086-MLA78736582976_092024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_719949-MLA78972906443_092024-F.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_978367-MLA78972420453_092024-F.jpg"
+          ]
+        ],
+        "unique_values_count": 24
+      },
+      "description": {
+        "present_count": 25,
+        "empty_count": 1,
+        "valid_count": 24,
+        "present_percentage": 100.0,
+        "empty_percentage": 4.0,
+        "valid_percentage": 96.0,
+        "completeness": 96.0,
+        "sample_values": [
+          "Campera Punto Extremo / GP23\rCampera de cordura para motociclista con protecciones removibles en hombros, codos y espalda.\rAbrigo interno térmico desmontable\rResistente a la abrasión de material textil muy resistente e impermeable\rCintas reflex\rEntradas y salidas de aire para una mejor ventilación\rCorreas y broches ajustables a la cintura y mangas\rCierre en espalda baja para unir con pantalón\rGarantía de fábrica: 30 días",
+          "Casco Abierto 570 Verso de LS2\rDiseñado para vivir la ciudad intensamente, el Verso de LS2 combina un compuesto seguro y liviano KPA (un material altamente flexible y duradero) con un diseño de línea suave. Es el casco ideal para aquellos usuarios que necesitan comodidad y un diseño liviano para el uso diario, sin comprometer la seguridad.\r¿Qué lo hace único?\rCaracterísticas Generales\rPeso: GR 1250 ± 50\rCertificación ECE 22.05\rMaterial KPA\r2 Calotas\rEstilo Urbano\rSeguridad\rCorrea de liberación rápida (Micrométrica)\rCorrea reforzada\rHebilla de acero\rAdhesivos reflectivos\rEPS Multi Densidad\rCuello de Seguridad\rVentilación\rVentilación superior\rPuertos de salida\rCanales de Ventilación\rVisor\rDoble Visor / Simple transparente & Solar\rAntirrasguños\rProtección UV\rGenerador de Vortice\rInterior\rDesmontable y lavable\rTranspirable\rHipoalergénico\rEspuma cortada con láser",
+          "Descripción\rZip Hoodie Armor Evo de NTO\rEl Zip Hoodie Armor Evo combina un diseño de estilo deportivo y urbano con características y detalles técnicos que la convierten en la campera perfecta, cómoda y segura para el día a día en la ciudad.\rSu construcción de Softshell con membrana Hydraout® resistente al agua ofrece un nivel perfecto de aislamiento y flexibilidad.\rComo todas nuestras camperas NTO®, incluye espaldar y protecciones removibles en hombros y antebrazos con Norma CE En1621-1 Nivel 1. Para evitar que el frío llegue a la parte baja de la espalda y al mismo tiempo agregar protección, la campera incorpora el nuevo ZIP & LOOP System, el doble sistema de acople en la cintura que te permite conectar la campera con cualquier pantalón, incluso tus jeans preferidos. Todas las protecciones son removibles para facilitar su limpieza.\rUso\rUrbano\rMedia Estación\rMateriales\rSoftshell. 100% poliéster\rMembrana resistente al agua (8000 M2 H2O)\rCaracterísticas\rTejido con membrana resistente al agua\rAjuste de cintura y puño de morley elastizado\r2 puntos de ajuste en mangas\rGuantin de lycra con pasadedo para enfundar con guantes\rBolsillo napoleón impermeable (interno)\rPanel soft en espalda baja para mayor confort y protección\rZIP & LOOP System. Doble sistema de acople con pantalón\rBolsillos delanteros y mangas con cierre WP\rFuelle elástico en codos para mayor movimiento\rSeguridad\rProtecciones removibles en hombros y antebrazo\rNORMA CE En1621-1 Nivel 1\rEspaldar removible\rPrints reflectivos 360º"
+        ],
+        "unique_values_count": 22
+      },
+      "category_name": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Camperas",
+          "Cascos",
+          "Camperas"
+        ],
+        "unique_values_count": 4
+      },
+      "category_url": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.masxmoto.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/indumentaria-calzado/camperas/",
+          "https://www.masxmoto.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/cascos/",
+          "https://www.masxmoto.com.ar/listado/accesorios-vehiculos/acc-motos-cuatriciclos/indumentaria-calzado/camperas/"
+        ],
+        "unique_values_count": 4
+      },
+      "source": {
+        "present_count": 25,
+        "empty_count": 0,
+        "valid_count": 25,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          true,
+          true,
+          true
+        ],
+        "unique_values_count": 1
+      }
+    },
+    "critical_issues": [],
+    "recommended_missing": [],
+    "completeness_score": 92.0,
+    "products_100_complete": 0,
+    "products_critical_complete": 25
+  },
+  "sample_incomplete_products": [
+    {
+      "index": 0,
+      "name": "Campera Moto Punto Extremo Pk01 Super Oferta! Masxmoto Rojo Lisa M",
+      "url": "https://www.masxmoto.com.ar/campera-moto-punto-extremo-pk01-super-oferta-masxmoto/up/MLAU3165808470?pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Casco Abierto Ls2 570 Verso Doble Visor Negro Liso Masxmoto",
+      "url": "https://www.masxmoto.com.ar/MLA-1449429259-casco-abierto-ls2-570-verso-doble-visor-negro-liso-masxmoto-_JM?searchVariation=181623938910&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Campera Moto Nto Zip Hoodie Neoprene Protecciones Masxmoto",
+      "url": "https://www.masxmoto.com.ar/MLA-1448043041-campera-moto-nto-zip-hoodie-neoprene-protecciones-masxmoto-_JM?searchVariation=184686948891&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Campera Moto Punto Extremo Gp23 Pk02 Super Oferta Masxmoto Rojo Lisa 4xl",
+      "url": "https://www.masxmoto.com.ar/campera-moto-punto-extremo-gp23-pk02-super-oferta-masxmoto/up/MLAU3162566645?pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text",
+        "description"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "Campera Moto Punto Extremo Pk01 Super Oferta! Masxmoto",
+      "url": "https://www.masxmoto.com.ar/campera-moto-punto-extremo-pk01-super-oferta-masxmoto/up/MLAU3243771239?pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Campera Moto Cordura  Nto City Evo Hombre Y Mujer Masxmoto",
+      "url": "https://www.masxmoto.com.ar/MLA-1901948402-campera-moto-cordura-nto-city-evo-hombre-y-mujer-masxmoto-_JM?searchVariation=181562833918&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "Campera Moto Ls2 Sepang Hombre Abrigo Proteccion Masxmoto",
+      "url": "https://www.masxmoto.com.ar/MLA-1439204513-campera-moto-ls2-sepang-hombre-abrigo-proteccion-masxmoto-_JM?searchVariation=181173678606&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "Campera Moto Ls2 Sepang Mujer Proteccion Abrigo Masxmoto",
+      "url": "https://www.masxmoto.com.ar/MLA-1439204865-campera-moto-ls2-sepang-mujer-proteccion-abrigo-masxmoto-_JM?searchVariation=183866374221&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Zapatilla Nto Commuter Moto Protección Hombre Masxmoto",
+      "url": "https://www.masxmoto.com.ar/MLA-1459220717-zapatilla-nto-commuter-moto-proteccion-hombre-masxmoto-_JM?searchVariation=185944762387&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "Campera Moto Alpinestars T-sp Waterproof Jacket Masxmoto",
+      "url": "https://www.masxmoto.com.ar/MLA-1953932598-campera-moto-alpinestars-t-sp-waterproof-jacket-masxmoto-_JM?searchVariation=182155811296&pdp_filters=seller_id%3A154329119",
+      "missing_fields": [
+        "discount_text"
+      ]
+    }
+  ]
+}

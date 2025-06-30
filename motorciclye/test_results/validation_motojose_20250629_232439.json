@@ -1,0 +1,216 @@
+{
+  "spider_name": "motojose",
+  "timestamp": "2025-06-29T23:24:39.952347",
+  "items_analyzed": 56,
+  "validations": {
+    "structure": {
+      "score": 82.61538461538461,
+      "issues": [
+        "Campo 'price': 1.8% incompleto (1 vacíos)",
+        "Campo 'brand': 100.0% incompleto (55 vacíos)",
+        "Campo 'attrs': 100.0% incompleto (55 vacíos)",
+        "Campo 'discount_text': 100.0% incompleto (55 vacíos)",
+        "Campo 'description': 10.9% incompleto (6 vacíos)",
+        "Producto 1: 'category_url' debe ser URL válida: #",
+        "Producto 2: 'category_url' debe ser URL válida: #",
+        "Producto 3: 'category_url' debe ser URL válida: #",
+        "Producto 4: 'category_url' debe ser URL válida: #",
+        "Producto 5: 'category_url' debe ser URL válida: #",
+        "Producto 6: 'category_url' debe ser URL válida: #",
+        "Producto 7: 'category_url' debe ser URL válida: #",
+        "Producto 8: 'category_url' debe ser URL válida: #",
+        "Producto 9: 'category_url' debe ser URL válida: #",
+        "Producto 10: 'category_url' debe ser URL válida: #"
+      ],
+      "details": {
+        "sources_count": 1,
+        "products_count": 55,
+        "field_completeness": {
+          "menu_name": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "menu_url": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "product_url": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "name": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "price": {
+            "completeness": 98.18181818181819,
+            "missing": 0,
+            "empty": 1,
+            "total_issues": 1
+          },
+          "brand": {
+            "completeness": 0.0,
+            "missing": 0,
+            "empty": 55,
+            "total_issues": 55
+          },
+          "attrs": {
+            "completeness": 0.0,
+            "missing": 0,
+            "empty": 55,
+            "total_issues": 55
+          },
+          "discount_text": {
+            "completeness": 0.0,
+            "missing": 0,
+            "empty": 55,
+            "total_issues": 55
+          },
+          "images": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "description": {
+            "completeness": 89.0909090909091,
+            "missing": 0,
+            "empty": 6,
+            "total_issues": 6
+          },
+          "category_name": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "category_url": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          },
+          "source": {
+            "completeness": 100.0,
+            "missing": 0,
+            "empty": 0,
+            "total_issues": 0
+          }
+        },
+        "critical_field_issues": {
+          "price": 1.8181818181818181
+        },
+        "structure_issues": [
+          "Producto 1: 'category_url' debe ser URL válida: #",
+          "Producto 2: 'category_url' debe ser URL válida: #",
+          "Producto 3: 'category_url' debe ser URL válida: #",
+          "Producto 4: 'category_url' debe ser URL válida: #",
+          "Producto 5: 'category_url' debe ser URL válida: #",
+          "Producto 6: 'category_url' debe ser URL válida: #",
+          "Producto 7: 'category_url' debe ser URL válida: #",
+          "Producto 8: 'category_url' debe ser URL válida: #",
+          "Producto 9: 'category_url' debe ser URL válida: #",
+          "Producto 10: 'category_url' debe ser URL válida: #"
+        ]
+      }
+    },
+    "data_quality": {
+      "score": 50,
+      "issues": [
+        "Solo 0.0% de productos tienen marca",
+        "Se encontraron 2 productos duplicados"
+      ],
+      "details": {
+        "names_quality": {
+          "score": 100.0,
+          "issues": []
+        },
+        "prices_quality": {
+          "score": 98.18181818181819,
+          "issues": []
+        },
+        "brands_quality": {
+          "score": 0.0,
+          "issues": [
+            "Solo 0.0% de productos tienen marca"
+          ]
+        },
+        "duplicates": {
+          "count": 2,
+          "duplicates": [
+            "Nombre duplicado: REMERA ALPINESTARS NEU AGELESS TEE",
+            "Nombre duplicado: CAMPERA MOTO VERTIGO AIRKINETIK"
+          ]
+        }
+      }
+    },
+    "urls": {
+      "score": 100,
+      "issues": [],
+      "details": {
+        "valid_urls": 55,
+        "invalid_urls": 0
+      }
+    },
+    "prices": {
+      "score": 98.18181818181819,
+      "issues": [
+        "Producto sin precio: CAMPERA MOTO VERTIGO AIRKINETIK"
+      ],
+      "details": {
+        "valid_prices": 54,
+        "invalid_prices": 1
+      }
+    },
+    "images": {
+      "score": 100,
+      "issues": [],
+      "details": {
+        "products_with_images": 55,
+        "products_without_images": 0
+      }
+    },
+    "categories": {
+      "score": 100.0,
+      "issues": [
+        "Categorías faltantes: Cascos, Aceites, Cubiertas, Accesorios"
+      ],
+      "details": {
+        "found_categories": [
+          "Camperas",
+          "Buzos y Remeras"
+        ],
+        "products_with_category": 55,
+        "expected_categories": [
+          "Cascos",
+          "Cubiertas",
+          "Aceites",
+          "Accesorios"
+        ]
+      }
+    },
+    "source_info": {
+      "score": 100,
+      "issues": [],
+      "details": {
+        "active_contacts": [
+          "phone",
+          "email",
+          "ws",
+          "business_hours"
+        ]
+      }
+    }
+  },
+  "score": 90.11388611388611,
+  "issues": [],
+  "recommendations": []
+}

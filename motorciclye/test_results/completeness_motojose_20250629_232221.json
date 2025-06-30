@@ -1,0 +1,326 @@
+{
+  "spider_name": "motojose",
+  "timestamp": "20250629_232221",
+  "analysis": {
+    "total_products": 38,
+    "field_stats": {
+      "menu_name": {
+        "present_count": 38,
+        "empty_count": 0,
+        "valid_count": 38,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Buzos y Remeras",
+          "Buzos y Remeras",
+          "Buzos y Remeras"
+        ],
+        "unique_values_count": 2
+      },
+      "menu_url": {
+        "present_count": 38,
+        "empty_count": 0,
+        "valid_count": 38,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motojose.com.ar/articulos.asp?cat_nombre=Buzos y Remeras&idcategoria=13",
+          "https://www.motojose.com.ar/articulos.asp?cat_nombre=Buzos y Remeras&idcategoria=13",
+          "https://www.motojose.com.ar/articulos.asp?cat_nombre=Buzos y Remeras&idcategoria=13"
+        ],
+        "unique_values_count": 2
+      },
+      "product_url": {
+        "present_count": 38,
+        "empty_count": 0,
+        "valid_count": 38,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "https://www.motojose.com.ar/articulo.asp?idarticulo=917&art_nombre=REMERA%20MUJER%20ALPINESTARS%20WOMENS%20BLAZE%20TEE%20WHITE",
+          "https://www.motojose.com.ar/articulo.asp?idarticulo=1105&art_nombre=REMERA%20ALPINESTARS%20WOMENS%20WORDMARK%20TEE",
+          "https://www.motojose.com.ar/articulo.asp?idarticulo=1107&art_nombre=REMERA%20ALPINESTARS%20SING%20UP%20TEE"
+        ],
+        "unique_values_count": 38
+      },
+      "name": {
+        "present_count": 38,
+        "empty_count": 0,
+        "valid_count": 38,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "REMERA MUJER ALPINESTARS WOMENS BLAZE TEE WHITE",
+          "REMERA ALPINESTARS WOMENS WORDMARK TEE",
+          "REMERA ALPINESTARS SING UP TEE"
+        ],
+        "unique_values_count": 36
+      },
+      "price": {
+        "present_count": 38,
+        "empty_count": 1,
+        "valid_count": 37,
+        "present_percentage": 100.0,
+        "empty_percentage": 2.631578947368421,
+        "valid_percentage": 97.36842105263158,
+        "completeness": 97.36842105263158,
+        "sample_values": [
+          34600.0,
+          34600.0,
+          34600.0
+        ],
+        "unique_values_count": 23
+      },
+      "brand": {
+        "present_count": 38,
+        "empty_count": 38,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "attrs": {
+        "present_count": 38,
+        "empty_count": 38,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "discount_text": {
+        "present_count": 38,
+        "empty_count": 38,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "images": {
+        "present_count": 38,
+        "empty_count": 0,
+        "valid_count": 38,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          [
+            "https://www.motojose.com.ar/database/articulos/fotos/917/REMERA MUJER ALPINESTARS WOMENS BLAZE TEE WHITE _1.jpg"
+          ],
+          [
+            "https://www.motojose.com.ar/database/articulos/fotos/1105/REMERA ALPINESTARS WOMENS WORDMARK TEE_1.jpg"
+          ],
+          [
+            "https://www.motojose.com.ar/database/articulos/fotos/1107/REMERA ALPINESTARS SING UP TEE_1.jpg"
+          ]
+        ],
+        "unique_values_count": 38
+      },
+      "description": {
+        "present_count": 38,
+        "empty_count": 6,
+        "valid_count": 32,
+        "present_percentage": 100.0,
+        "empty_percentage": 15.789473684210526,
+        "valid_percentage": 84.21052631578947,
+        "completeness": 84.21052631578947,
+        "sample_values": [
+          "• Remera de Mujer manga corta.\r\n\r\n•100% algodón.\r\n\r\n• Camiseta con estampa clásica, gráfico del logotipo de Ageless en la parte delantera.",
+          "-Regular fit. \r\n-100% algodón.  \r\nEstilo de conducción en moto: Urbano\r\nGénero: Hombre",
+          "-Regular fit. \r\n-100% algodón.  \r\nEstilo de conducción en moto: Urbano\r\nGénero: Hombre"
+        ],
+        "unique_values_count": 24
+      },
+      "category_name": {
+        "present_count": 38,
+        "empty_count": 0,
+        "valid_count": 38,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          "Buzos y Remeras",
+          "Buzos y Remeras",
+          "Buzos y Remeras"
+        ],
+        "unique_values_count": 2
+      },
+      "category_url": {
+        "present_count": 38,
+        "empty_count": 38,
+        "valid_count": 0,
+        "present_percentage": 100.0,
+        "empty_percentage": 100.0,
+        "valid_percentage": 0.0,
+        "completeness": 0.0,
+        "sample_values": [],
+        "unique_values_count": 0
+      },
+      "source": {
+        "present_count": 38,
+        "empty_count": 0,
+        "valid_count": 38,
+        "present_percentage": 100.0,
+        "empty_percentage": 0.0,
+        "valid_percentage": 100.0,
+        "completeness": 100.0,
+        "sample_values": [
+          true,
+          true,
+          true
+        ],
+        "unique_values_count": 1
+      }
+    },
+    "critical_issues": [
+      {
+        "field": "price",
+        "empty_count": 1,
+        "empty_percentage": 2.631578947368421
+      }
+    ],
+    "recommended_missing": [
+      {
+        "field": "brand",
+        "empty_percentage": 100.0
+      }
+    ],
+    "completeness_score": 67.81376518218623,
+    "products_100_complete": 0,
+    "products_critical_complete": 37
+  },
+  "sample_incomplete_products": [
+    {
+      "index": 0,
+      "name": "REMERA MUJER ALPINESTARS WOMENS BLAZE TEE WHITE",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=917&art_nombre=REMERA%20MUJER%20ALPINESTARS%20WOMENS%20BLAZE%20TEE%20WHITE",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "REMERA ALPINESTARS WOMENS WORDMARK TEE",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1105&art_nombre=REMERA%20ALPINESTARS%20WOMENS%20WORDMARK%20TEE",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "description",
+        "category_url"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "REMERA ALPINESTARS SING UP TEE",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1107&art_nombre=REMERA%20ALPINESTARS%20SING%20UP%20TEE",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "description",
+        "category_url"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "REMERA ALPINESTARS NEU AGELESS TEE",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=867&art_nombre=REMERA%20ALPINESTARS%20NEU%20AGELESS%20TEE",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "REMERA ALPINESTARS NEU AGELESS TEE",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1108&art_nombre=REMERA%20ALPINESTARS%20NEU%20AGELESS%20TEE",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "description",
+        "category_url"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "REMERA ALPINESTARS LINEAR TEE WHITE",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=920&art_nombre=REMERA%20ALPINESTARS%20LINEAR%20TEE%20WHITE",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "REMERA ALPINESTARS LINEAR TEE HEAT GRAY",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=921&art_nombre=REMERA%20ALPINESTARS%20LINEAR%20TEE%20HEAT%20GRAY",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "REMERA ALPINESTARS LINEAR TEE BLACK",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=922&art_nombre=REMERA%20ALPINESTARS%20LINEAR%20TEE%20BLACK",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "REMERA ALPINESTARS BLAZE TEE HEAT GRAY",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=1106&art_nombre=REMERA%20ALPINESTARS%20BLAZE%20TEE%20HEAT%20GRAY",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "description",
+        "category_url"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "REMERA ALPINESTARS BLAZE TEE GREEN",
+      "url": "https://www.motojose.com.ar/articulo.asp?idarticulo=919&art_nombre=REMERA%20ALPINESTARS%20BLAZE%20TEE%20GREEN",
+      "missing_fields": [
+        "brand",
+        "attrs",
+        "discount_text",
+        "category_url"
+      ]
+    }
+  ]
+}
