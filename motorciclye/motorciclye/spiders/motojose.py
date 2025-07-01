@@ -1,8 +1,8 @@
 import scrapy
-
 from .motodelta import MotodeltaSpider
 
 class MotojoseSpider(MotodeltaSpider):
+    """Spider optimizado para motojose.com.ar con extracción mejorada"""
     name = "motojose"
     allowed_domains = ["motojose.com.ar"]
     start_urls = ["https://motojose.com.ar"]
@@ -50,14 +50,18 @@ class MotojoseSpider(MotodeltaSpider):
                 )
 
     def parse_product_description(self, response):
-        return '\r'.join(response.xpath(self.XPATH_PRODUCT_DESCRIPTION).getall())
+        """Extrae descripción concatenando múltiples elementos"""
+        descriptions = self.safe_xpath_getall(response, self.XPATH_PRODUCT_DESCRIPTION)
+        return '\r'.join(descriptions) if descriptions else None
 
     def parse_product_images(self, response):
-        return list(map(lambda x: response.urljoin(x), response.xpath(self.XPATH_PRODUCT_IMAGES).getall()))
+        """Extrae imágenes y las convierte a URLs absolutas"""
+        images = self.safe_xpath_getall(response, self.XPATH_PRODUCT_IMAGES)
+        return [response.urljoin(img) for img in images] if images else None
 
     def parse_product_price(self, response):
-        price = response.xpath(self.XPATH_PRODUCT_PRICE).get()
-        if str(price).lower().find('consultar') != -1:
+        """Parse de precio que maneja casos especiales como 'consultar'"""
+        price_text = self.safe_xpath_get(response, self.XPATH_PRODUCT_PRICE)
+        if price_text and 'consultar' in price_text.lower():
             return None
-        else:
-            return super().parse_product_price(response)
+        return self.clean_price(price_text)

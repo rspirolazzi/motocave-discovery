@@ -4,3 +4,4 @@ __pycache__/
 .scrapy
 build/
 *.log
+test_results/

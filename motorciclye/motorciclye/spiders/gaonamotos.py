@@ -2,6 +2,7 @@ from .motodelta import MotodeltaSpider
 import scrapy
 
 class GaonamotosSpider(MotodeltaSpider):
+    """Spider optimizado para gaonamotos.com con herencia de motodelta"""
     name = "gaonamotos"
     allowed_domains = ["gaonamotos.com"]
     start_urls = ["https://gaonamotos.com"]

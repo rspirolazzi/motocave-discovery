@@ -24,7 +24,10 @@ class MotodeltaSpider(BaseSpider):
     XPATH_PRODUCT_IMAGES = '//div//img/@data-zoom'
     XPATH_PRODUCT_DESCRIPTION = '//*[@class="ui-pdp-description__content"]/text()'
     XPATH_PRODUCT_BRAND = '//table//tr[th[contains(translate(text(), "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz"), "marca")]]/td//span[@class="andes-table__column--value"]/text()'
-    XPATH_PRODUCT_ATTRS = None
+    XPATH_PRODUCT_ATTRS = '//table[@class="andes-table"]//tr[th and td]'
+    XPATH_PRODUCT_ATTRS_KEY = './/th//text()'
+    XPATH_PRODUCT_ATTRS_VALUE = './/td//span[@class="andes-table__column--value"]/text()'
+
     XPATH_BREADCRUMB_LAST = '//*[contains(@class, "andes-breadcrumb")]//li[last()]/a'
     HANDLE_PAGINATION = True  # Habilitar paginación por defecto
 
@@ -143,6 +146,7 @@ class MotodeltaSpider(BaseSpider):
         self.logger.info(f"Parseando listado de productos: {response.url}")
         # Captura las urls de productos del listado
         product_links = response.xpath(self.XPATH_PRODUCT_LINKS).getall()
+        
         self.logger.info(f"Encontrados {len(product_links)} productos en {response.url}")
         for href in product_links:
             self.logger.debug(f"Producto encontrado: {href}")
@@ -171,18 +175,16 @@ class MotodeltaSpider(BaseSpider):
 
     def parse_product_attrs(self, response):
         """Extrae todos los atributos de la tabla de especificaciones"""
-        if not self.XPATH_PRODUCT_ATTRS:
+        attrs = {}
+        if self.XPATH_PRODUCT_ATTRS:
             # Si no hay XPATH específico, extraer toda la tabla
-            attrs = {}
-            rows = response.xpath('//table[@class="andes-table"]//tr[th and td]')
+            rows = response.xpath(self.XPATH_PRODUCT_ATTRS)
             for row in rows:
-                key = row.xpath('.//th//text()').get()
-                value = row.xpath('.//td//span[@class="andes-table__column--value"]/text()').get()
+                key = row.xpath(self.XPATH_PRODUCT_ATTRS_KEY).get()
+                value = row.xpath(self.XPATH_PRODUCT_ATTRS_VALUE).get()
                 if key and value:
                     attrs[key.strip()] = value.strip()
-            return attrs
-        else:
-            return response.xpath(self.XPATH_PRODUCT_ATTRS).getall() if self.XPATH_PRODUCT_ATTRS else []
+        return attrs
 
     def parse_product_brand(self, response):
         """Extrae la marca del producto desde la tabla de especificaciones"""
@@ -196,6 +198,8 @@ class MotodeltaSpider(BaseSpider):
             self.logger.info(f"Parseando producto: {response.url}")
             name = self.parse_product_name(response)
             price = self.parse_product_price(response)
+            # Para ver el HTML completo en los logs:
+            self.logger.debug(response.text)
             images = self.parse_product_images(response)
             description = self.parse_product_description(response)
             attrs = self.parse_product_attrs(response)

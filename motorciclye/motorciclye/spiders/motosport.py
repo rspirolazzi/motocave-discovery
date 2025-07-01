@@ -2,16 +2,20 @@ from .motodelta import MotodeltaSpider
 import scrapy
 
 class MotosportSpider(MotodeltaSpider):
+    """
+    Spider optimizado para motosport.com.ar con configuraciones anti-bot
+    y manejo robusto de errores 403.
+    """
     name = "motosport"
     allowed_domains = ["motosport.com.ar"]
     start_urls = ["https://motosport.com.ar"]
     
-    # URLs a ignorar
-    ignored_urls = [
-        "/categoria/motos/",  # También ignorar rutas relativas
-    ]
+    # URLs a ignorar (convertido a set para optimización)
+    ignored_urls = {
+        "/categoria/motos/",  # Categoría sin productos
+    }
     
-    # Configuración adicional para manejar restricciones
+    # Configuración anti-bot optimizada
     custom_settings = {
         'DOWNLOAD_DELAY': 3,
         'RANDOMIZE_DOWNLOAD_DELAY': 1.0,
@@ -20,7 +24,7 @@ class MotosportSpider(MotodeltaSpider):
         'COOKIES_ENABLED': True,
         'RETRY_ENABLED': True,
         'RETRY_TIMES': 2,
-        'RETRY_HTTP_CODES': [500, 502, 503, 504, 408, 429],  # Removemos 403 del retry
+        'RETRY_HTTP_CODES': [500, 502, 503, 504, 408, 429],
         'DEFAULT_REQUEST_HEADERS': {
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
             'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
@@ -50,17 +54,19 @@ class MotosportSpider(MotodeltaSpider):
     XPATH_MENU_LINK_HREF = './@href'
     XPATH_MENU_LINK_TEXT = 'normalize-space(string())'
     XPATH_SUB_LINKS = None
-    XPATH_PRODUCT_LINKS = '//*[@id="main"]/div/div[1]/div/div[3]/div//div/div[2]/div[2]/div[3]/a/@href'
+    XPATH_PRODUCT_LINKS = '//*[@id="main"]/div/div[1]/div/div[3]/div/div/div[2]/div[1]/div[1]/a/@href'
     XPATH_NEXT_PAGE = '//*[@id="main"]/div/div[1]/div/div[4]/nav/ul/li[9]/a/@href'
     XPATH_PRODUCT_NAME = '//h1/text()'
     XPATH_PRODUCT_PRICE = '//*[@class="price-wrapper"]/p//span[@class="woocommerce-Price-amount amount"]/bdi/text()'
-    XPATH_PRODUCT_IMAGES = '//*[@id="col-504363264"]/div/div/div[1]/div/div[3]/div/div/div/a/img/@src'
-    XPATH_PRODUCT_DESCRIPTION = '//*[@id="col-2070242902"]/div/div[8]/p/text()'
+    XPATH_PRODUCT_IMAGES = '//img[@class="wp-post-image ux-skip-lazy"]/@src'
+    XPATH_PRODUCT_DESCRIPTION = '//div[@class="product-short-description"]/p/text()'
     XPATH_PRODUCT_BRAND = None
-    XPATH_PRODUCT_ATTRS = None
+    XPATH_PRODUCT_ATTRS = '//*[@id="accordion-additional_information-content"]/table//tr[th and td]'
+    XPATH_PRODUCT_ATTRS_KEY = './/th//text()'
+    XPATH_PRODUCT_ATTRS_VALUE = './/td/p/text()'
     XPATH_BREADCRUMB_LAST = None
-    XPATH_PRODUCT_DISCOUNT_TEXT = '//*[@id="col-1553412576"]/div/div/div[1]/div/div[1]/div/div/span/text()'
-    XPATH_PRODUCT_PAYMENTS = '//*[@id="text-3069185851"]/ul/li/strong/text()'
+    XPATH_PRODUCT_DISCOUNT_TEXT = '/html/body/div[1]/main/div/div[3]/div/section/div[2]/div[2]/div/div/div[1]/div/div[1]/div[1]/div/div/span/text()'
+    XPATH_PRODUCT_PAYMENTS = '//div[@class="text text-promo"]/ul/li'
     HANDLE_PAGINATION = True  # Habilitar paginación por defecto
 
     XPATH_SOURCE_IMG_LOGO = '//*[@id="logo"]/a/img[1]/@src'
@@ -74,66 +80,74 @@ class MotosportSpider(MotodeltaSpider):
     XPATH_BUSINESS_HOURS_TEXT = None
 
 
-    def should_ignore_url(self, url):
-        """Verifica si una URL debe ser ignorada"""
-        for ignored in self.ignored_urls:
-            if ignored in url:
-                return True
-        return False
-    
     def parse(self, response):
+        """
+        Parse optimizado con validaciones robustas y logging mejorado.
+        """
         # Verificar si la URL actual debe ser ignorada
         if self.should_ignore_url(response.url):
             self.logger.info(f"Ignorando URL: {response.url}")
             return
         
-        # Verificar que la respuesta sea válida
-        if response.status != 200:
-            self.logger.warning(f"Código de estado no exitoso: {response.status} para {response.url}")
+        # Validaciones de respuesta
+        if not self._is_valid_response(response):
             return
             
-        # Verificar que el contenido sea HTML
-        content_type = response.headers.get('content-type', b'').decode('utf-8').lower()
-        if 'text/html' not in content_type:
-            self.logger.warning(f"Contenido no es HTML: {content_type} para {response.url}")
-            return
-            
-        # Log de éxito
-        self.logger.info(f"✅ Respuesta exitosa de {response.url} - Tamaño: {len(response.body)} bytes")
+        # Log de éxito con emoji (manejado en logger)
+        self.logger.info(f"Respuesta exitosa de {response.url} - Tamaño: {len(response.body)} bytes")
         
         # Continuar con el parse normal del spider padre
         return super().parse(response)
+    
+    def _is_valid_response(self, response) -> bool:
+        """Valida que la respuesta sea procesable"""
+        if response.status != 200:
+            self.logger.warning(f"Código de estado no exitoso: {response.status} para {response.url}")
+            return False
+            
+        content_type = response.headers.get('content-type', b'').decode('utf-8').lower()
+        if 'text/html' not in content_type:
+            self.logger.warning(f"Contenido no es HTML: {content_type} para {response.url}")
+            return False
+            
+        return True
         
     def parse_product_price(self, response):
-        raw_price = response.xpath(self.XPATH_PRODUCT_PRICE).getall()
-        if raw_price:
-            return float(raw_price[len(raw_price)-1].replace('$', '').replace('.', '').strip())
+        """Parse de precio optimizado para motosport"""
+        raw_prices = self.safe_xpath_getall(response, self.XPATH_PRODUCT_PRICE)
+        if raw_prices:
+            # Tomar el último precio (generalmente el más relevante)
+            last_price = raw_prices[-1]
+            return self.clean_price(last_price)
         return None
     
     def parse_product_category_name(self, response):
-        return response.meta.get('menu_name', None)
+        """Obtiene el nombre de categoría desde los metadatos"""
+        return response.meta.get('menu_name')
     
     def start_requests(self):
-        """Generar requests iniciales con headers especiales"""
+        """Generar requests iniciales con headers anti-bot optimizados"""
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+            'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Referer': 'https://www.google.com/',
+            'DNT': '1',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'cross-site',
+            'Sec-Fetch-User': '?1',
+            'Cache-Control': 'max-age=0',
+        }
+        
         for url in self.start_urls:
             yield scrapy.Request(
                 url=url,
                 callback=self.parse,
-                headers={
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
-                    'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
-                    'Accept-Encoding': 'gzip, deflate, br',
-                    'Referer': 'https://www.google.com/',
-                    'DNT': '1',
-                    'Connection': 'keep-alive',
-                    'Upgrade-Insecure-Requests': '1',
-                    'Sec-Fetch-Dest': 'document',
-                    'Sec-Fetch-Mode': 'navigate',
-                    'Sec-Fetch-Site': 'cross-site',
-                    'Sec-Fetch-User': '?1',
-                    'Cache-Control': 'max-age=0',
-                },
+                headers=headers,
                 meta={
                     'dont_cache': True,  # No usar cache para el primer request
                 }

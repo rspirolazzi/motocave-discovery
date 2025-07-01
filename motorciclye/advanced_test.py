@@ -84,13 +84,13 @@ class AdvancedSpiderValidator:
                 'min_images': 1,
                 'base_url': 'https://shopavantmotos.com.ar'
             },
-            'motosport': {
-                'expected_categories': ['Cascos', 'Cubiertas', 'Aceites', 'Accesorios'],
+            'fasmotos': {
+                'expected_categories': ['Cubiertas', 'Cascos', 'Indumentaria', 'Repuestos y Accesorios'],
                 'required_fields': ['menu_name', 'menu_url', 'product_url', 'name', 'price', 'brand', 'attrs', 'discount_text', 'images', 'description', 'category_name', 'category_url', 'source'],
                 'critical_fields': ['name', 'price', 'product_url'],
                 'price_range': (5000, 2000000),
                 'min_images': 1,
-                'base_url': 'https://motosport.com.ar'
+                'base_url': 'https://www.fasmotos.com.ar'
             }
         }
         

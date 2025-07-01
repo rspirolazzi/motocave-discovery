@@ -2,6 +2,7 @@ import scrapy
 from .gaonamotos import GaonamotosSpider
 
 class MotoscbaSpider(GaonamotosSpider):
+    """Spider optimizado para motoscba.com.ar basado en gaonamotos"""
     name = "motoscba"
     allowed_domains = ["motoscba.com.ar"]
     start_urls = ["https://motoscba.com.ar"]

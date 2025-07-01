@@ -1,6 +1,7 @@
 from .motodelta import MotodeltaSpider
 
 class MasxmotoSpider(MotodeltaSpider):
+    """Spider optimizado para masxmoto.com.ar con paginación deshabilitada"""
     name = "masxmoto"
     allowed_domains = ["masxmoto.com.ar"]
     start_urls = ["https://masxmoto.com.ar"]
